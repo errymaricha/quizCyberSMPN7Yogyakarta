@@ -10,50 +10,50 @@
 /* Default palette: the Zync light theme from ai-dashboard (packages/web/src/zync.css). */
 :root {
   color-scheme: light;
-  --bg: #fafcf6;
-  --surface: #eff1e7;
-  --surface2: #ffffff;
-  --accent: #273918;
-  --accent2: #5a5b39;
-  --accent-soft: #dfe9c1;
-  --on-soft: #1c2a10;
-  --track: #e2e5da;
-  --glow: rgba(223, 233, 193, 0.55);
-  --success: #4f7a28;
-  --danger: #a3452c;
-  --warn: #96680f;
-  --text2: #5e6258;
-  --radius: 12px;
-  --background: #fafcf6;
-  --foreground: #070707;
-  --card: #eff1e7;
-  --card-foreground: #070707;
-  --popover: #ffffff;
-  --popover-foreground: #070707;
-  --primary: #273918;
-  --primary-foreground: #f4f7ec;
-  --secondary: #dfe9c1;
-  --secondary-foreground: #1c2a10;
-  --muted: #f6f6f4;
-  --muted-foreground: #5e6258;
-  --accent-foreground: #f4f7ec;
-  --destructive: #a3452c;
-  --border: #bfc3b3;
-  --input: #bfc3b3;
-  --ring: #273918;
-  --chart-1: #273918;
-  --chart-2: #5a5b39;
-  --chart-3: #7f8b5b;
-  --chart-4: #c4cbb4;
-  --chart-5: #dfe9c1;
-  --sidebar: #eff1e7;
-  --sidebar-foreground: #070707;
-  --sidebar-primary: #273918;
-  --sidebar-primary-foreground: #f4f7ec;
-  --sidebar-accent: #dfe9c1;
-  --sidebar-accent-foreground: #1c2a10;
-  --sidebar-border: #bfc3b3;
-  --sidebar-ring: #273918;
+  --bg: #FFFDF5;
+  --surface: #FFFFFF;
+  --surface2: #FFFFFF;
+  --accent: #FFE600;
+  --accent2: #00F0FF;
+  --accent-soft: #FFF500;
+  --on-soft: #000000;
+  --track: #E5E5E5;
+  --glow: rgba(255, 230, 0, 0.45);
+  --success: #22C55E;
+  --danger: #FF3366;
+  --warn: #FFB800;
+  --text2: #262626;
+  --radius: 10px;
+  --background: #FFFDF5;
+  --foreground: #000000;
+  --card: #FFFFFF;
+  --card-foreground: #000000;
+  --popover: #FFFFFF;
+  --popover-foreground: #000000;
+  --primary: #FFE600;
+  --primary-foreground: #000000;
+  --secondary: #00F0FF;
+  --secondary-foreground: #000000;
+  --muted: #F5F5F0;
+  --muted-foreground: #404040;
+  --accent-foreground: #000000;
+  --destructive: #FF3366;
+  --border: #000000;
+  --input: #000000;
+  --ring: #000000;
+  --chart-1: #FFE600;
+  --chart-2: #00F0FF;
+  --chart-3: #FF3366;
+  --chart-4: #22C55E;
+  --chart-5: #A855F7;
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #000000;
+  --sidebar-primary: #FFE600;
+  --sidebar-primary-foreground: #000000;
+  --sidebar-accent: #00F0FF;
+  --sidebar-accent-foreground: #000000;
+  --sidebar-border: #000000;
+  --sidebar-ring: #000000;
 }
 
 @theme inline {
@@ -124,8 +124,10 @@
     @apply min-h-full bg-background text-foreground antialiased;
     line-height: 1.6;
     transition: background-color 0.4s ease, color 0.4s ease;
-    background-image: radial-gradient(1200px 600px at 50% -8%, var(--glow), transparent 60%);
-    background-repeat: no-repeat;
+    background-color: #FFFDF5;
+    background-image: radial-gradient(#000000 1.2px, transparent 1.2px);
+    background-size: 24px 24px;
+    background-repeat: repeat;
     background-attachment: fixed;
   }
 
@@ -168,16 +170,18 @@
 /* Game UI — kept as CSS (animations + complex states) */
 /* ── Pin Display ─────────────────────────────────────────── */
 .pin-display {
+  font-family: var(--font-mono);
   font-size: clamp(2.6rem, 7vw, 62px);
   font-weight: 900;
-  letter-spacing: 0.14em;
-  color: var(--accent);
+  letter-spacing: 0.18em;
+  color: #000000;
   text-align: center;
-  padding: 18px 40px;
-  background: var(--accent-soft);
-  border-radius: var(--radius);
-  border: 2px dashed var(--accent);
-  animation: pinGlow 3s ease-in-out infinite;
+  padding: 18px 44px;
+  background: #FFE600;
+  border-radius: 14px;
+  border: 4px solid #000000;
+  box-shadow: 8px 8px 0px #000000;
+  text-shadow: none;
 }
 @keyframes pinGlow {
   0%,
@@ -328,24 +332,27 @@
 }
 
 .option-btn {
-  background: var(--surface2);
-  border: 2px solid var(--border);
-  border-radius: var(--radius);
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 12px;
   padding: 18px 16px;
   cursor: pointer;
-  color: var(--text);
-  font-size: 0.95rem;
-  font-weight: 500;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 700;
   text-align: left;
-  transition: all 0.18s;
+  transition: all 0.12s ease;
   display: flex;
   align-items: center;
   gap: 12px;
   min-height: 72px;
+  box-shadow: 4px 4px 0px #000000;
 }
 .option-btn:hover:not(:disabled):not(.selected):not(.correct):not(.wrong) {
-  border-color: var(--accent);
-  background: var(--accent-soft);
+  border-color: #000000;
+  background: #FFF500;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #000000;
 }
 .option-btn.selected {
   border-color: var(--accent);
@@ -408,34 +415,43 @@
 .lb-item {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px 16px;
-  border-radius: var(--radius);
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  transition: all 0.2s;
+  gap: 14px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  transition: all 0.15s;
 }
 .lb-item.rank-1 {
-  border-color: #fbbf24;
-  background: rgba(251, 191, 36, 0.07);
+  border-color: #000000 !important;
+  background: #FFE600 !important;
+  box-shadow: 6px 6px 0px #000000 !important;
 }
 .lb-item.rank-2 {
-  border-color: #9ca3af;
+  border-color: #000000 !important;
+  background: #00F0FF !important;
+  box-shadow: 5px 5px 0px #000000 !important;
 }
 .lb-item.rank-3 {
-  border-color: #b45309;
+  border-color: #000000 !important;
+  background: #FF8A00 !important;
+  box-shadow: 5px 5px 0px #000000 !important;
 }
 .lb-rank {
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: var(--border);
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid #000000;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 800;
-  font-size: 0.85rem;
+  font-weight: 900;
+  font-size: 0.95rem;
   flex-shrink: 0;
+  font-family: var(--font-mono);
 }
 .lb-item.rank-1 .lb-rank {
   background: #fbbf24;
@@ -891,16 +907,18 @@
     opacity 0.2s,
     filter 0.2s;
   background: var(--quad-color);
-  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.3);
+  border: 3.5px solid #000000 !important;
+  color: #000000 !important;
+  box-shadow: 6px 6px 0px #000000 !important;
   animation: optIn 0.4s both;
 }
 .option-quad:hover:not(:disabled):not(.correct):not(.wrong):not(.dim) {
-  transform: translateY(-2px);
-  box-shadow: 0 9px 0 rgba(0, 0, 0, 0.32);
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0px #000000 !important;
 }
 .option-quad:active:not(:disabled) {
-  transform: translateY(3px);
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #000000 !important;
 }
 .option-quad:disabled {
   cursor: default;

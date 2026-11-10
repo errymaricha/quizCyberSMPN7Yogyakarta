@@ -49,30 +49,19 @@ export default function CreatorNavBar({
   }
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-border bg-card">
+    <nav className="sticky top-0 z-50 border-b-3 border-black bg-white shadow-[0_3px_0px_#000]">
       <div className="flex min-h-14 items-center gap-2 px-3 sm:px-4">
         <Link
           to={basePath}
-          className="mr-1 flex min-w-0 items-center gap-1.5 text-lg font-extrabold sm:mr-3 sm:text-xl"
+          className="mr-2 flex min-w-0 items-center gap-2 border-2 border-black bg-[#FFE600] px-3 py-1 rounded-md shadow-[3px_3px_0px_#000] -rotate-1 hover:rotate-0 transition-transform"
         >
-          <Zap className="size-5 shrink-0 fill-brand text-brand" />
-          {appName ? (
-            <span className="truncate">
-              <span className="bg-gradient-to-br from-brand-strong to-brand bg-clip-text text-transparent">
-                {appName}
-              </span>{' '}
-              <span className="hidden font-normal text-[0.72em] text-muted-foreground opacity-80 sm:inline">
-                by Quizz
-              </span>
-            </span>
-          ) : (
-            <span className="bg-gradient-to-br from-brand-strong to-brand bg-clip-text text-transparent">
-              Quizz
-            </span>
-          )}
+          <Zap className="size-4 shrink-0 fill-black text-black" />
+          <span className="truncate text-sm sm:text-base font-black uppercase tracking-tight text-black">
+            {appName || 'Quis SMP Negri 12 Yogyakarta Voxpayana'}
+          </span>
         </Link>
 
-        <div className="hidden flex-wrap items-center gap-1 md:flex">
+        <div className="hidden flex-wrap items-center gap-1.5 md:flex">
           {links.map(({ to, label }) => (
             <Link key={to} to={to} className={active(to)}>
               {label}

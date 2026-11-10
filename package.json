@@ -5,7 +5,12 @@
   "pnpm": {
     "overrides": {
       "picomatch": "4.0.3"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "bcrypt",
+      "esbuild",
+      "sqlite3"
+    ]
   },
   "scripts": {
     "dev": "pnpm --parallel -r dev",

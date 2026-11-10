@@ -86,7 +86,7 @@ export function GameLobby({
           size="lg"
           onClick={onStart}
           disabled={players.length === 0}
-          className="mt-8 rounded-2xl border-none bg-gradient-to-br from-brand-strong to-brand px-8 py-[15px] text-[17px] font-bold text-primary-foreground hover:opacity-95"
+          className="mt-8 rounded-xl border-3 border-black bg-[#FFE600] text-black shadow-[6px_6px_0px_#000] hover:bg-[#FFF066] px-8 py-3.5 text-base font-black uppercase tracking-wider"
         >
           Start game →
         </Button>

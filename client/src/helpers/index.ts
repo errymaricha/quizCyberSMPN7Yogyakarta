@@ -43,7 +43,7 @@ export function optionLetter(index: number): string {
  * Color-Quadrants design system — index-mapped answer colors + geometric glyphs.
  * A/B/C/D → Red ▲ · Blue ◆ · Gold ● · Green ■. Wraps for >4 options.
  */
-export const QUAD_COLORS = ['#e2455a', '#2a7de1', '#f5a623', '#1f9d57', '#a855f7', '#0ea5e9'];
+export const QUAD_COLORS = ['#FF3366', '#00D2FF', '#FFE600', '#22C55E', '#A855F7', '#FF8A00'];
 export const QUAD_GLYPHS = ['▲', '◆', '●', '■', '★', '⬢'];
 /** lucide equivalents of QUAD_GLYPHS, index-matched. */
 export const QUAD_ICONS: LucideIcon[] = [Triangle, Diamond, Circle, Square, Star, Hexagon];

@@ -1,7 +1,7 @@
 {
   "port": 3000,
-  "appName": "Scaleway",
-  "appSubtitle": "",
+  "appName": "Quis SMP Negri 12 Yogyakarta Voxpayana",
+  "appSubtitle": "Cyber Challenge: Klik atau Skip? — Think Before You Click!",
   "jwtSecret": "f5d9d85fd335fab4193190bd1758d7657e500f4dd75d45bcf650375ec71019c4",
   "allowedDomain": "",
   "questionTimeSec": 20,

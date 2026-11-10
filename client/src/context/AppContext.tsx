@@ -6,19 +6,22 @@ interface AppContextValue {
   allowedDomain: string;
   /** Configured base URL for phones; empty means use the current origin. */
   publicUrl: string;
-  /** Full display string: "Scaleway by ⚡ Quizz" or "⚡ Quizz" */
+  /** Full display string */
   displayName: string;
-  /** Short brand string: "Scaleway" or "⚡ Quizz" */
+  /** Short brand string */
   brandName: string;
 }
 
+const DEFAULT_APP_NAME = 'Quis SMP Negri 12 Yogyakarta Voxpayana';
+const DEFAULT_SUBTITLE = 'Cyber Challenge: Klik atau Skip? — Think Before You Click!';
+
 const AppContext = createContext<AppContextValue>({
-  appName: '',
-  appSubtitle: '',
+  appName: DEFAULT_APP_NAME,
+  appSubtitle: DEFAULT_SUBTITLE,
   allowedDomain: '',
   publicUrl: '',
-  displayName: '⚡ Quizz',
-  brandName: '⚡ Quizz',
+  displayName: DEFAULT_APP_NAME,
+  brandName: 'SMPN 12 VOXPAYANA',
 });
 
 function buildDisplay(
@@ -27,14 +30,14 @@ function buildDisplay(
   allowedDomain: string,
   publicUrl: string,
 ): AppContextValue {
-  const trimmed = appName.trim();
+  const trimmed = appName.trim() || DEFAULT_APP_NAME;
   return {
     appName: trimmed,
-    appSubtitle: appSubtitle.trim(),
+    appSubtitle: appSubtitle.trim() || DEFAULT_SUBTITLE,
     allowedDomain: allowedDomain.trim(),
     publicUrl: publicUrl.trim(),
-    displayName: trimmed ? `${trimmed} by ⚡ Quizz` : '⚡ Quizz',
-    brandName: trimmed || '⚡ Quizz',
+    displayName: trimmed,
+    brandName: trimmed,
   };
 }
 

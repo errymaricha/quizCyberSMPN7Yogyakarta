@@ -5,7 +5,7 @@ import CreatorNav from './CreatorNav';
 
 export function Page({ children, className }: { children: ReactNode; className?: string }) {
   return (
-    <div className={cn('flex min-h-0 flex-1 flex-col overflow-x-hidden', className)}>
+    <div className={cn('flex min-h-0 flex-1 flex-col overflow-x-hidden bg-[#FFFDF5]', className)}>
       {children}
     </div>
   );
@@ -15,7 +15,7 @@ export function PageCenter({ children, className }: { children: ReactNode; class
   return (
     <div
       className={cn(
-        'flex min-h-screen flex-1 flex-col items-center justify-center p-4 sm:p-6',
+        'flex min-h-screen flex-1 flex-col items-center justify-center p-4 sm:p-6 bg-[#FFFDF5]',
         className,
       )}
     >
@@ -28,7 +28,7 @@ export function PageVCenter({ children, className }: { children: ReactNode; clas
   return (
     <div
       className={cn(
-        'flex min-h-screen flex-1 flex-col items-center justify-center px-4 py-8',
+        'flex min-h-screen flex-1 flex-col items-center justify-center px-4 py-8 bg-[#FFFDF5]',
         className,
       )}
     >
@@ -59,7 +59,13 @@ const maxWidthClass = {
 
 export function AuthCard({ children, className, maxWidth = 'md' }: AuthCardProps) {
   return (
-    <Card className={cn('w-full shadow-xl ring-foreground/10', maxWidthClass[maxWidth], className)}>
+    <Card
+      className={cn(
+        'w-full bg-white border-4 border-black shadow-[8px_8px_0px_#000] rounded-2xl transition-all',
+        maxWidthClass[maxWidth],
+        className,
+      )}
+    >
       <CardContent className="p-6 sm:p-8">{children}</CardContent>
     </Card>
   );
@@ -69,7 +75,7 @@ export function AppLogo({ children, className }: { children: ReactNode; classNam
   return (
     <div
       className={cn(
-        'bg-gradient-to-br from-brand-strong to-brand bg-clip-text text-2xl font-extrabold text-transparent',
+        'inline-block font-black text-black tracking-tight text-xl sm:text-2xl uppercase border-3 border-black bg-[#FFE600] px-4 py-1.5 shadow-[4px_4px_0px_#000] rounded-lg -rotate-1 hover:rotate-0 transition-transform',
         className,
       )}
     >
@@ -79,7 +85,16 @@ export function AppLogo({ children, className }: { children: ReactNode; classNam
 }
 
 export function Subtitle({ children, className }: { children: ReactNode; className?: string }) {
-  return <p className={cn('text-sm text-muted-foreground', className)}>{children}</p>;
+  return (
+    <p
+      className={cn(
+        'text-xs sm:text-sm font-mono font-bold tracking-wide uppercase text-black/80 mt-1',
+        className,
+      )}
+    >
+      {children}
+    </p>
+  );
 }
 
 /** Full-page loading (or error) placeholder shown under the creator nav. */
@@ -88,7 +103,9 @@ export function PageLoading({ message = 'Loading…', nav }: { message?: string;
     <Page>
       {nav ?? <CreatorNav />}
       <PageCenter>
-        <p className="text-muted-foreground">{message}</p>
+        <div className="bg-white border-3 border-black p-6 rounded-xl shadow-[6px_6px_0px_#000]">
+          <p className="font-bold text-black uppercase tracking-wider">{message}</p>
+        </div>
       </PageCenter>
     </Page>
   );
@@ -96,8 +113,4 @@ export function PageLoading({ message = 'Loading…', nav }: { message?: string;
 
 export function FormRow({ children, className }: { children: ReactNode; className?: string }) {
   return <div className={cn('grid grid-cols-1 gap-4 sm:grid-cols-2', className)}>{children}</div>;
-}
-
-export function SectionDivider({ className }: { className?: string }) {
-  return <div className={cn('my-5 border-t border-border', className)} />;
 }

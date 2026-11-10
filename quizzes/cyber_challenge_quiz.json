@@ -1,0 +1,111 @@
+{
+  "title": "Cyber Challenge: Klik atau Skip? — SMP N 12 Yogyakarta",
+  "description": "Kuis Edukasi Keamanan Digital 'Think Before You Click!' untuk Siswa SMP Negeri 12 Yogyakarta (Voxpayana).",
+  "language": "id",
+  "questions": [
+    {
+      "text": "💎 DIAMOND GRATIS MOBILE LEGENDS!\n\nKamu menerima pesan WhatsApp dari nomor tidak dikenal:\n\"Selamat! Kamu memenangkan 10.000 Diamond Mobile Legends GRATIS. Klik tautan bit.ly/ml-diamond-gratis lalu masukkan username dan PASSWORD akunmu untuk klaim hadiah sekarang!\"\n\nSebagai siswa bijak, apa tindakanmu?",
+      "options": [
+        "KLIK — Lumayan dapat 10.000 Diamond gratis!",
+        "SKIP — Waspada! Ini jebakan phishing pencurian akun"
+      ],
+      "correctIndex": 1,
+      "baseScore": 500,
+      "timeSec": 30,
+      "questionType": "multiple_choice",
+      "explanation": "🚨 JAWABAN BENAR: SKIP!\nPenawaran hadiah gratis yang meminta password atau informasi login adalah ciri utama PHISHING. Developer resmi game TIDAK PERNAH meminta password pemain untuk memberikan hadiah.",
+      "tags": ["phishing", "scam", "gaming"]
+    },
+    {
+      "text": "📸 LINK DARI TEMAN DI MEDSOS\n\nTeman sekelasmu tiba-tiba mengirim Direct Message (DM):\n\"Eh, ini foto kamu kemarin kan? Lucu banget parah, coba cek di link ini: s.id/foto-kamu-viral\".\nNamun gaya bahasanya sangat kaku dan tidak seperti temanmu biasanya.\n\nApa yang harus kamu lakukan?",
+      "options": [
+        "KLIK — Penasaran ingin melihat fotonya!",
+        "SKIP — Curiga akun teman diretas, konfirmasi dulu lewat telepon/ketemu langsung"
+      ],
+      "correctIndex": 1,
+      "baseScore": 500,
+      "timeSec": 30,
+      "questionType": "multiple_choice",
+      "explanation": "🚨 JAWABAN BENAR: SKIP!\nAkun temanmu kemungkinan besar telah DIRETAK / DIBAJAK. Hacker sering menggunakan akun korban untuk menyebarkan malware atau link jebakan ke teman-temannya. Selalu konfirmasi langsung sebelum mengeklik link mencurigakan.",
+      "tags": ["social-engineering", "malware", "social-media"]
+    },
+    {
+      "text": "🔐 MENGAKU ADMIN & MEMINTA KODE OTP\n\nSeseorang menelepon dan mengirim chat mengaku sebagai \"Admin Resmi WhatsApp Indonesia\":\n\"Akun WhatsApp Anda akan dibekukan karena aktivitas mencurigakan! Segera kirimkan 6 digit kode OTP yang baru saja masuk lewat SMS ke nomor Anda agar akun tidak diblokir!\"\n\nApa tindakanmu?",
+      "options": [
+        "KLIK / KIRIM — Takut akun WhatsApp diblokir",
+        "SKIP — Jangan pernah bagikan kode OTP kepada siapa pun!"
+      ],
+      "correctIndex": 1,
+      "baseScore": 500,
+      "timeSec": 30,
+      "questionType": "multiple_choice",
+      "explanation": "🚨 JAWABAN BENAR: SKIP!\nOTP (One-Time Password) adalah kunci rahasia pintu akunmu. Pihak WhatsApp, bank, atau aplikasi apa pun TIDAK PERNAH meminta kode OTP. Jika kamu berikan, akunmu akan langsung diambil alih pembajak!",
+      "tags": ["otp", "account-takeover", "security"]
+    },
+    {
+      "text": "🎮 PEMBARUAN (UPDATE) APLIKASI GAME RESMI\n\nKamu membuka Google Play Store / Apple App Store sendiri di HP kamu. Kamu memeriksa nama pengembang (developer) resminya, membaca ulasan, dan menemukan ada tombol 'Update' untuk game favoritmu.\n\nApakah aman untuk dilakukan?",
+      "options": [
+        "KLIK — Aman karena melalui toko aplikasi resmi dan terverifikasi",
+        "SKIP — Takut virus, jadi tidak mau update"
+      ],
+      "correctIndex": 0,
+      "baseScore": 500,
+      "timeSec": 30,
+      "questionType": "multiple_choice",
+      "explanation": "✅ JAWABAN BENAR: KLIK!\nMemperbarui aplikasi melalui toko resmi (Play Store / App Store) setelah memverifikasi nama pengembang adalah tindakan yang AMAN dan SANGAT DIANJURKAN karena berisi perbaikan keamanan (security patches).",
+      "tags": ["update", "safe-practice", "playstore"]
+    },
+    {
+      "text": "🏠 UGGAHAN STORY RUMAH KOSONG\n\nKeluargamu akan berlibur ke luar kota selama 3 hari. Kamu ingin membuat Story di Instagram / TikTok yang menampilkan alamat lengkap rumah dan foto gerbang depan dengan caption:\n\"Liburan panjang asik! Rumah kosong ditinggal 3 hari ke Bali!\"\n\nApakah postingan ini aman dibagikan?",
+      "options": [
+        "KLIK — Upload saja biar followers tahu lagi liburan",
+        "SKIP — Hapus / Jangan upload! Ini mengundang bahaya kejahatan"
+      ],
+      "correctIndex": 1,
+      "baseScore": 500,
+      "timeSec": 30,
+      "questionType": "multiple_choice",
+      "explanation": "🚨 JAWABAN BENAR: SKIP!\nOversharing informasi pribadi seperti alamat rumah dan jadwal rumah kosong di media sosial dapat dimanfaatkan pelaku kejahatan (pencurian). Jaga privasi fisik dan keselamatan keluargamu di dunia nyata!",
+      "tags": ["privacy", "oversharing", "social-media"]
+    },
+    {
+      "text": "🏫 INFORMASI KEGIATAN SEKOLAH DI SITUS RESMI\n\nKamu membuka situs atau kanal resmi SMP Negeri 12 Yogyakarta yang sudah kamu kenal baik untuk membaca jadwal kegiatan tengah semester. Di halaman tersebut hanya ada informasi jadwal tanpa meminta password atau data sensitif.\n\nApakah aman untuk dibuka?",
+      "options": [
+        "KLIK — Buka dan baca jadwal resmi sekolah",
+        "SKIP — Hindari membuka halaman web"
+      ],
+      "correctIndex": 0,
+      "baseScore": 500,
+      "timeSec": 30,
+      "questionType": "multiple_choice",
+      "explanation": "✅ JAWABAN BENAR: KLIK!\nMengakses informasi dari kanal dan domain resmi sekolah yang sudah terverifikasi tanpa ada permintaan data pribadi adalah contoh perilaku digital yang sehat dan tepat.",
+      "tags": ["official-source", "safe-browsing", "school"]
+    },
+    {
+      "text": "🎁 SURAT UNDANGAN / PAKET KURIR FORMAT .APK\n\nKamu menerima file di WhatsApp dari nomor tak dikenal dengan nama:\n\"Surat_Undangan_Pernikahan.apk\" atau \"Foto_Paket_J&T.apk\".\nPengirim meminta kamu membuka dan menginstal file tersebut di HP Androidmu.\n\nApa tindakan yang tepat?",
+      "options": [
+        "KLIK — Unduh dan instal untuk melihat isinya",
+        "SKIP — Hapus segera! Ini malware Trojan APK pencuri data & SMS"
+      ],
+      "correctIndex": 1,
+      "baseScore": 500,
+      "timeSec": 30,
+      "questionType": "multiple_choice",
+      "explanation": "🚨 JAWABAN BENAR: SKIP!\nIni adalah modus kejahatan Malware Sniffer (Trojan APK). File .apk dari luar Play Store dapat menyusup ke sistem HP, membaca SMS, membajak m-banking, dan mencuri akun WhatsApp.",
+      "tags": ["malware", "apk", "danger"]
+    },
+    {
+      "text": "🛡️ MENGAKTIFKAN TWO-FACTOR AUTHENTICATION (2FA)\n\nAplikasi Instagram / TikTok / Google menawarkan fitur keamanan tambahan: \"Aktifkan Autentikasi Dua Langkah (2FA) agar setiap login baru memerlukan verifikasi tambahan\".\n\nApakah fitur ini sebaiknya diaktifkan?",
+      "options": [
+        "KLIK — Sangat bagus! 2FA melindungi akun meskipun password bocor",
+        "SKIP — Malas, bikin login jadi ribet"
+      ],
+      "correctIndex": 0,
+      "baseScore": 500,
+      "timeSec": 30,
+      "questionType": "multiple_choice",
+      "explanation": "✅ JAWABAN BENAR: KLIK!\n2FA (Two-Factor Authentication) adalah lapisan pertahanan ganda terbaik. Bahkan jika seseorang mengetahui passwordmu, mereka tetap tidak bisa masuk tanpa izin dari kode verifikasi di HP milikmu.",
+      "tags": ["2fa", "security-hygiene", "best-practice"]
+    }
+  ]
+}

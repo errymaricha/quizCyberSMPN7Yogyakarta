@@ -31,7 +31,7 @@ export function QuizIntroCard({
   return (
     <div
       className={cn(
-        'overflow-hidden rounded-2xl border border-border sm:items-stretch',
+        'overflow-hidden rounded-2xl border-4 border-black bg-white shadow-[8px_8px_0px_#000] sm:items-stretch',
         isRow ? 'flex flex-col sm:flex-row' : 'grid sm:grid-cols-2',
         className,
       )}

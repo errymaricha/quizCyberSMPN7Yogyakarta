@@ -16,3 +16,5 @@ docs
 
 # Runtime data (config with secrets, sqlite db)
 data/
+
+!data/cyber_challenge_quiz.json
