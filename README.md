@@ -6,7 +6,7 @@
 Aplikasi web kuis interaktif *real-time* berbasis WebSocket untuk kegiatan edukasi keamanan digital bagi siswa **SMP Negeri 7 Yogyakarta**.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg?style=for-the-badge)](LICENSE)
-[![Design: Neo-Brutalism](https://img.shields.io/badge/Design-Neo--Brutalism-FFE600.svg?style=for-the-badge&logoColor=black)](https://github.com/errymaricha/quizCyberVoxpayana)
+[![Design: Neo-Brutalism](https://img.shields.io/badge/Design-Neo--Brutalism-FFE600.svg?style=for-the-badge&logoColor=black)](https://github.com/errymaricha/quizCyberSMPN7Yogyakarta)
 [![SMP Negeri 7 Yogyakarta](https://img.shields.io/badge/School-SMPN%207%20Yogyakarta-00F0FF.svg?style=for-the-badge)](https://smpn7jogja.sch.id/)
 
 ---
