@@ -5,21 +5,25 @@
   "language": "id",
   "questions": [
     {
-      "text": "💎 DIAMOND GRATIS MOBILE LEGENDS!\n\nKamu menerima pesan WhatsApp dari nomor tidak dikenal:\n\"Selamat! Kamu memenangkan 10.000 Diamond MLBB GRATIS! Klik link bit.ly/ml-diamond-gratis lalu masukkan username dan PASSWORD akunmu sekarang!\"\n\nSebagai siswa bijak SMP Negeri 7 Yogyakarta, apa tindakanmu?",
+      "text": "DIAMOND GRATIS MOBILE LEGENDS!\n\nKamu menerima pesan WhatsApp dari nomor tidak dikenal:\n\"Selamat! Kamu memenangkan 10.000 Diamond MLBB GRATIS! Klik link bit.ly/ml-diamond-gratis lalu masukkan username dan PASSWORD akunmu sekarang!\"\n\nSebagai siswa bijak SMP Negeri 7 Yogyakarta, apa tindakanmu?",
       "options": [
         "KLIK — Lumayan dapat 10.000 Diamond gratis!",
         "SKIP — Waspada! Ini jebakan phishing pencurian akun"
       ],
       "correctIndex": 1,
       "baseScore": 500,
-      "timeSec": 25,
+      "timeSec": 10,
       "questionType": "multiple_choice",
       "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800",
-      "explanation": "🚨 JAWABAN BENAR: SKIP!\nDeveloper game resmi TIDAK PERNAH membagikan item gratis dengan meminta password akun pemain. Tautan semacam ini 100% adalah phishing.",
-      "tags": ["phishing", "gaming", "scam"]
+      "explanation": "JAWABAN BENAR: SKIP!\nDeveloper game resmi TIDAK PERNAH membagikan item gratis dengan meminta password akun pemain. Tautan semacam ini 100% adalah phishing.",
+      "tags": [
+        "phishing",
+        "gaming",
+        "scam"
+      ]
     },
     {
-      "text": "🔍 CIRI-CIRI LINK JEBAKAN (PHISHING)\n\nDari tanda-tanda berikut, manakah yang merupakan ciri-ciri kuat tautan (link) PHISHING atau jebakan siber?\n(PILIH 3 JAWABAN BENAR)",
+      "text": "CIRI-CIRI LINK JEBAKAN (PHISHING)\n\nDari tanda-tanda berikut, manakah yang merupakan ciri-ciri kuat tautan (link) PHISHING atau jebakan siber?\n(PILIH 3 JAWABAN BENAR)",
       "options": [
         "Alamat domain mengecoh/salah eja (misal: faceb00k-login.xyz)",
         "Menjanjikan hadiah fantastis atau uang cuma-cuma tanpa alasan jelas",
@@ -27,29 +31,41 @@
         "Menciptakan kepanikan/mendesak korban cepat-cepat memasukkan password & OTP"
       ],
       "correctIndex": 0,
-      "correctIndices": [0, 1, 3],
+      "correctIndices": [
+        0,
+        1,
+        3
+      ],
       "baseScore": 600,
-      "timeSec": 30,
+      "timeSec": 10,
       "questionType": "multi_select",
-      "explanation": "✅ JAWABAN BENAR: Pilihan 1, 2, dan 4.\nLink phishing biasanya menggunakan domain palsu, iming-iming hadiah gratis, dan mendesak korban agar panik sehingga tidak sempat berpikir kritis.",
-      "tags": ["phishing", "multi-select", "literasi"]
+      "explanation": "JAWABAN BENAR: Pilihan 1, 2, dan 4.\nLink phishing biasanya menggunakan domain palsu, iming-iming hadiah gratis, dan mendesak korban agar panik sehingga tidak sempat berpikir kritis.",
+      "tags": [
+        "phishing",
+        "multi-select",
+        "literasi"
+      ]
     },
     {
-      "text": "📶 WI-FI GRATIS DI TEMPAT UMUM\n\nKamu sedang berkumpul di kafe dan menemukan Wi-Fi terbuka tanpa password bernama \"Free_Public_WiFi_Kencang\". Kamu ingin login ke aplikasi perbankan/m-banking atau akun sosmed utamamu.\n\nApakah aman melakukan login di jaringan ini?",
+      "text": "WI-FI GRATIS DI TEMPAT UMUM\n\nKamu sedang berkumpul di kafe dan menemukan Wi-Fi terbuka tanpa password bernama \"Free_Public_WiFi_Kencang\". Kamu ingin login ke aplikasi perbankan/m-banking atau akun sosmed utamamu.\n\nApakah aman melakukan login di jaringan ini?",
       "options": [
         "KLIK — Sambungkan dan login, mumpung kuota hemat!",
         "SKIP — Hindari transaksi sensitif di Wi-Fi publik tanpa proteksi/gunakan data seluler sendiri"
       ],
       "correctIndex": 1,
       "baseScore": 500,
-      "timeSec": 25,
+      "timeSec": 10,
       "questionType": "multiple_choice",
       "imageUrl": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800",
-      "explanation": "🚨 JAWABAN BENAR: SKIP!\nWi-Fi publik tanpa password sangat rentan terhadap serangan Man-in-the-Middle (MitM) di mana peretas dapat mengintip lalu lintas data dan mencuri kredensial login.",
-      "tags": ["wifi", "public-network", "privacy"]
+      "explanation": "JAWABAN BENAR: SKIP!\nWi-Fi publik tanpa password sangat rentan terhadap serangan Man-in-the-Middle (MitM) di mana peretas dapat mengintip lalu lintas data dan mencuri kredensial login.",
+      "tags": [
+        "wifi",
+        "public-network",
+        "privacy"
+      ]
     },
     {
-      "text": "🔑 KEBIASAAN KATA SANDI YANG AMAN\n\nManakah langkah dan kebiasaan yang BENAR dalam mengelola kata sandi agar akunmu terlindungi dari kebocoran?\n(PILIH 3 JAWABAN BENAR)",
+      "text": "KEBIASAAN KATA SANDI YANG AMAN\n\nManakah langkah dan kebiasaan yang BENAR dalam mengelola kata sandi agar akunmu terlindungi dari kebocoran?\n(PILIH 3 JAWABAN BENAR)",
       "options": [
         "Menggunakan tanggal lahir atau nama panggilan agar tidak lupa",
         "Menggunakan minimal 12 karakter kombinasi huruf besar, kecil, angka, dan simbol",
@@ -57,42 +73,58 @@
         "Membedakan kata sandi antara email utama dengan akun game/sosial media"
       ],
       "correctIndex": 1,
-      "correctIndices": [1, 2, 3],
+      "correctIndices": [
+        1,
+        2,
+        3
+      ],
       "baseScore": 600,
-      "timeSec": 30,
+      "timeSec": 10,
       "questionType": "multi_select",
-      "explanation": "✅ JAWABAN BENAR: Pilihan 2, 3, dan 4.\nJangan pernah gunakan data pribadi yang mudah ditebak (seperti tanggal lahir). Selalu gunakan variasi karakter, aktifkan 2FA, dan bedakan sandi tiap akun.",
-      "tags": ["password", "multi-select", "security"]
+      "explanation": "JAWABAN BENAR: Pilihan 2, 3, dan 4.\nJangan pernah gunakan data pribadi yang mudah ditebak (seperti tanggal lahir). Selalu gunakan variasi karakter, aktifkan 2FA, dan bedakan sandi tiap akun.",
+      "tags": [
+        "password",
+        "multi-select",
+        "security"
+      ]
     },
     {
-      "text": "📦 FILE .APK DARI KURIR / SURAT UNDANGAN\n\nKamu menerima file di WhatsApp dari nomor tak dikenal berformat: \"Foto_Paket_JNE.apk\" atau \"Surat_Undangan_Pernikahan.apk\". Pengirim meminta kamu segera menginstalnya di HP Androidmu.\n\nApa tindakanmu?",
+      "text": "FILE .APK DARI KURIR / SURAT UNDANGAN\n\nKamu menerima file di WhatsApp dari nomor tak dikenal berformat: \"Foto_Paket_JNE.apk\" atau \"Surat_Undangan_Pernikahan.apk\". Pengirim meminta kamu segera menginstalnya di HP Androidmu.\n\nApa tindakanmu?",
       "options": [
         "KLIK — Langsung unduh dan instal untuk melihat paketnya",
         "SKIP — Hapus segera! Ini malware Trojan APK pencuri saldo & SMS OTP"
       ],
       "correctIndex": 1,
       "baseScore": 500,
-      "timeSec": 25,
+      "timeSec": 10,
       "questionType": "multiple_choice",
       "imageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800",
-      "explanation": "🚨 JAWABAN BENAR: SKIP!\nIni adalah modus kejahatan Malware Sniffer (Trojan APK). File .apk dari luar Play Store dapat menyusup, membaca isi SMS, membajak m-banking, dan mencuri akun WhatsApp.",
-      "tags": ["malware", "apk", "danger"]
+      "explanation": "JAWABAN BENAR: SKIP!\nIni adalah modus kejahatan Malware Sniffer (Trojan APK). File .apk dari luar Play Store dapat menyusup, membaca isi SMS, membajak m-banking, dan mencuri akun WhatsApp.",
+      "tags": [
+        "malware",
+        "apk",
+        "danger"
+      ]
     },
     {
-      "text": "🔐 MENGAKU ADMIN & MEMINTA KODE OTP\n\nSeseorang menelpon mengaku sebagai \"Admin Resmi WhatsApp\":\n\"Akun Anda terindikasi spam! Segera bacakan 6 digit kode OTP yang baru kami kirim lewat SMS agar nomor Anda tidak dinonaktifkan!\"\n\nApa responmu?",
+      "text": "MENGAKU ADMIN & MEMINTA KODE OTP\n\nSeseorang menelpon mengaku sebagai \"Admin Resmi WhatsApp\":\n\"Akun Anda terindikasi spam! Segera bacakan 6 digit kode OTP yang baru kami kirim lewat SMS agar nomor Anda tidak dinonaktifkan!\"\n\nApa responmu?",
       "options": [
         "KLIK / KIRIM — Berikan kodenya karena takut nomor dinonaktifkan",
         "SKIP — Tolak keras! Kode OTP bersifat rahasia dan tidak boleh dibagikan kepada siapapun"
       ],
       "correctIndex": 1,
       "baseScore": 500,
-      "timeSec": 25,
+      "timeSec": 10,
       "questionType": "multiple_choice",
-      "explanation": "🚨 JAWABAN BENAR: SKIP!\nOTP (One-Time Password) adalah kunci rahasia akunmu. Pihak WhatsApp, bank, atau operator seluler TIDAK AKAN PERNAH meminta kode OTP. Jika diberikan, akunmu langsung dibajak!",
-      "tags": ["otp", "social-engineering", "privacy"]
+      "explanation": "JAWABAN BENAR: SKIP!\nOTP (One-Time Password) adalah kunci rahasia akunmu. Pihak WhatsApp, bank, atau operator seluler TIDAK AKAN PERNAH meminta kode OTP. Jika diberikan, akunmu langsung dibajak!",
+      "tags": [
+        "otp",
+        "social-engineering",
+        "privacy"
+      ]
     },
     {
-      "text": "🚫 BAHAYA OVERSHARING DI MEDIA SOSIAL\n\nManakah data pribadi berikut yang SANGAT BERBAHAYA dan TIDAK BOLEH diunggah ke medsos publik (Instagram Story, TikTok, status WA)?\n(PILIH 3 JAWABAN BENAR)",
+      "text": "BAHAYA OVERSHARING DI MEDIA SOSIAL\n\nManakah data pribadi berikut yang SANGAT BERBAHAYA dan TIDAK BOLEH diunggah ke medsos publik (Instagram Story, TikTok, status WA)?\n(PILIH 3 JAWABAN BENAR)",
       "options": [
         "Foto Kartu Keluarga (KK), KTP orang tua, atau Kartu Pelajar dengan NIK jelas",
         "Tiket pesawat/konser yang menampilkan barcode dan kode booking secara utuh",
@@ -100,42 +132,58 @@
         "Postingan mengabarkan rumah kosong ditinggal liburan sekeluarga"
       ],
       "correctIndex": 0,
-      "correctIndices": [0, 1, 3],
+      "correctIndices": [
+        0,
+        1,
+        3
+      ],
       "baseScore": 600,
-      "timeSec": 30,
+      "timeSec": 10,
       "questionType": "multi_select",
-      "explanation": "✅ JAWABAN BENAR: Pilihan 1, 2, dan 4.\nNIK pada identitas bisa disalahgunakan untuk pinjaman online ilegal. Barcode tiket menyimpan data pribadi penumpang, dan mengumumkan rumah kosong mengundang tindak kriminal pencurian.",
-      "tags": ["oversharing", "privacy", "multi-select"]
+      "explanation": "JAWABAN BENAR: Pilihan 1, 2, dan 4.\nNIK pada identitas bisa disalahgunakan untuk pinjaman online ilegal. Barcode tiket menyimpan data pribadi penumpang, dan mengumumkan rumah kosong mengundang tindak kriminal pencurian.",
+      "tags": [
+        "oversharing",
+        "privacy",
+        "multi-select"
+      ]
     },
     {
-      "text": "🤖 VIDEO MENCURIGAKAN (AI DEEPFAKE)\n\nKamu menerima video teman sekelasmu meminta transfer uang darurat. Suara dan wajahnya mirip, namun gerakan bibir serta kedipan matanya kaku dan tidak natural (indikasi AI Deepfake).\n\nApa tindakan yang paling cerdas?",
+      "text": "VIDEO MENCURIGAKAN (AI DEEPFAKE)\n\nKamu menerima video teman sekelasmu meminta transfer uang darurat. Suara dan wajahnya mirip, namun gerakan bibir serta kedipan matanya kaku dan tidak natural (indikasi AI Deepfake).\n\nApa tindakan yang paling cerdas?",
       "options": [
         "Langsung transfer uang karena panik melihat wajah temanmu",
         "SKIP & Verifikasi langsung dengan menelepon nomor resminya atau temui orangnya secara langsung"
       ],
       "correctIndex": 1,
       "baseScore": 500,
-      "timeSec": 25,
+      "timeSec": 10,
       "questionType": "multiple_choice",
       "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800",
-      "explanation": "🚨 JAWABAN BENAR: SKIP & VERIFIKASI!\nTeknologi AI Deepfake bisa meniru wajah dan suara seseorang untuk menipu. Selalu verifikasi langsung (face-to-face atau panggilan suara langsung) sebelum mengirim uang.",
-      "tags": ["deepfake", "ai", "fraud"]
+      "explanation": "JAWABAN BENAR: SKIP & VERIFIKASI!\nTeknologi AI Deepfake bisa meniru wajah dan suara seseorang untuk menipu. Selalu verifikasi langsung (face-to-face atau panggilan suara langsung) sebelum mengirim uang.",
+      "tags": [
+        "deepfake",
+        "ai",
+        "fraud"
+      ]
     },
     {
-      "text": "🎮 UPDATE RESMI APLIKASI DI PLAY STORE / APP STORE\n\nKamu membuka Google Play Store / Apple App Store sendiri di HP-mu. Terdapat tombol 'Update' untuk game favoritmu dari developer resmi untuk menambal bug keamanan.\n\nApakah aman untuk dilakukan?",
+      "text": "UPDATE RESMI APLIKASI DI PLAY STORE / APP STORE\n\nKamu membuka Google Play Store / Apple App Store sendiri di HP-mu. Terdapat tombol 'Update' untuk game favoritmu dari developer resmi untuk menambal bug keamanan.\n\nApakah aman untuk dilakukan?",
       "options": [
         "KLIK — Sangat aman dan disarankan untuk menutup celah keamanan (security patches)",
         "SKIP — Takut kuota habis dan takut virus"
       ],
       "correctIndex": 0,
       "baseScore": 500,
-      "timeSec": 20,
+      "timeSec": 10,
       "questionType": "multiple_choice",
-      "explanation": "✅ JAWABAN BENAR: KLIK!\nMemperbarui aplikasi lewat toko aplikasi resmi adalah praktik keamanan digital yang sangat baik untuk mencegah aplikasi disusupi malware akibat celah lama.",
-      "tags": ["update", "safe-practice", "app-store"]
+      "explanation": "JAWABAN BENAR: KLIK!\nMemperbarui aplikasi lewat toko aplikasi resmi adalah praktik keamanan digital yang sangat baik untuk mencegah aplikasi disusupi malware akibat celah lama.",
+      "tags": [
+        "update",
+        "safe-practice",
+        "app-store"
+      ]
     },
     {
-      "text": "🤝 MENGHADAPI PERUNDUNGAN SIBER (CYBERBULLYING)\n\nJika kamu melihat atau mengalami tindakan perundungan siber (cyberbullying) di grup medsos teman sekolah, apa langkah terbaik yang harus kamu lakukan?\n(PILIH 2 JAWABAN BENAR)",
+      "text": "MENGHADAPI PERUNDUNGAN SIBER (CYBERBULLYING)\n\nJika kamu melihat atau mengalami tindakan perundungan siber (cyberbullying) di grup medsos teman sekolah, apa langkah terbaik yang harus kamu lakukan?\n(PILIH 2 JAWABAN BENAR)",
       "options": [
         "Membalas dengan kata-kata kasar dan hinaan balik agar tidak kalah",
         "Ambil tangkapan layar (screenshot) sebagai bukti yang sah",
@@ -143,42 +191,57 @@
         "Menyebarkan ulang ejekan tersebut ke semua grup kelas lainnya"
       ],
       "correctIndex": 1,
-      "correctIndices": [1, 2],
+      "correctIndices": [
+        1,
+        2
+      ],
       "baseScore": 600,
-      "timeSec": 30,
+      "timeSec": 10,
       "questionType": "multi_select",
-      "explanation": "✅ JAWABAN BENAR: Pilihan 2 dan 3.\nJangan membalas api dengan api. Simpan bukti percakapan (screenshot), blokir pelaku perundungan, dan segera ceritakan kepada pihak yang dipercaya (Guru/Orang Tua).",
-      "tags": ["cyberbullying", "multi-select", "etika"]
+      "explanation": "JAWABAN BENAR: Pilihan 2 dan 3.\nJangan membalas api dengan api. Simpan bukti percakapan (screenshot), blokir pelaku perundungan, dan segera ceritakan kepada pihak yang dipercaya (Guru/Orang Tua).",
+      "tags": [
+        "cyberbullying",
+        "multi-select",
+        "etika"
+      ]
     },
     {
-      "text": "⚡ MOD APK / CHEAT GAME UNLIMITED COINS\n\nSebuah postingan TikTok menjanjikan file \"MOD APK Aimbot & Diamond Tak Terbatas\". Saat di-download, browser memberi peringatan: \"File ini berbahaya dan dapat merusak perangkat Anda\".\n\nApakah kamu akan tetap memasangnya?",
+      "text": "MOD APK / CHEAT GAME UNLIMITED COINS\n\nSebuah postingan TikTok menjanjikan file \"MOD APK Aimbot & Diamond Tak Terbatas\". Saat di-download, browser memberi peringatan: \"File ini berbahaya dan dapat merusak perangkat Anda\".\n\nApakah kamu akan tetap memasangnya?",
       "options": [
         "KLIK — Pasang saja, yang penting bisa menang terus di game!",
         "SKIP — Batalkan dan hapus segera! MOD APK sering disusupi Spyware penguras data"
       ],
       "correctIndex": 1,
       "baseScore": 500,
-      "timeSec": 25,
+      "timeSec": 10,
       "questionType": "multiple_choice",
       "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800",
-      "explanation": "🚨 JAWABAN BENAR: SKIP!\nAplikasi bajakan/MOD APK adalah sarang utama penyebaran malware dan spyware. Akun game-mu juga bisa terkena banned permanen dari developer resmi.",
-      "tags": ["mod-apk", "malware", "cheat"]
+      "explanation": "JAWABAN BENAR: SKIP!\nAplikasi bajakan/MOD APK adalah sarang utama penyebaran malware dan spyware. Akun game-mu juga bisa terkena banned permanen dari developer resmi.",
+      "tags": [
+        "mod-apk",
+        "malware",
+        "cheat"
+      ]
     },
     {
-      "text": "📸 LINK MENCURIGAKAN DARI AKUN TEMAN\n\nTeman sekelasmu tiba-tiba mengirim link via Direct Message (DM):\n\"Woy lihat nih, foto aib kamu kemarin viral di medsos: s.id/foto-kamu-viral\".\nNamun gaya ketikannya sangat aneh dan tidak seperti temanmu biasanya.\n\nApa tindakanmu?",
+      "text": "LINK MENCURIGAKAN DARI AKUN TEMAN\n\nTeman sekelasmu tiba-tiba mengirim link via Direct Message (DM):\n\"Woy lihat nih, foto aib kamu kemarin viral di medsos: s.id/foto-kamu-viral\".\nNamun gaya ketikannya sangat aneh dan tidak seperti temanmu biasanya.\n\nApa tindakanmu?",
       "options": [
         "KLIK — Penasaran ingin cepat-cepat melihat fotonya",
         "SKIP — Jangan klik! Konfirmasi dulu ke temanmu lewat telepon atau ketemu di sekolah"
       ],
       "correctIndex": 1,
       "baseScore": 500,
-      "timeSec": 25,
+      "timeSec": 10,
       "questionType": "multiple_choice",
-      "explanation": "🚨 JAWABAN BENAR: SKIP!\nAkun temanmu kemungkinan besar telah diretas. Hacker sengaja memanfaatkan rasa panik korban agar mengeklik tautan pencuri akun berikutnya.",
-      "tags": ["account-takeover", "social-engineering", "phishing"]
+      "explanation": "JAWABAN BENAR: SKIP!\nAkun temanmu kemungkinan besar telah diretas. Hacker sengaja memanfaatkan rasa panik korban agar mengeklik tautan pencuri akun berikutnya.",
+      "tags": [
+        "account-takeover",
+        "social-engineering",
+        "phishing"
+      ]
     },
     {
-      "text": "🌟 MEMBANGUN JEJAK DIGITAL (DIGITAL FOOTPRINT) POSITIF\n\nJejak digital yang kita tinggalkan di internet sulit dihapus dan bisa memengaruhi masa depan kita. Manakah contoh membangun jejak digital positif?\n(PILIH 2 JAWABAN BENAR)",
+      "text": "MEMBANGUN JEJAK DIGITAL (DIGITAL FOOTPRINT) POSITIF\n\nJejak digital yang kita tinggalkan di internet sulit dihapus dan bisa memengaruhi masa depan kita. Manakah contoh membangun jejak digital positif?\n(PILIH 2 JAWABAN BENAR)",
       "options": [
         "Membagikan karya kreatif, hobi bermanfaat, atau prestasi sekolah",
         "Menggunakan akun palsu (second account) untuk menyindir teman",
@@ -186,42 +249,57 @@
         "Ikut menyebarkan berita heboh yang belum jelas faktanya"
       ],
       "correctIndex": 0,
-      "correctIndices": [0, 2],
+      "correctIndices": [
+        0,
+        2
+      ],
       "baseScore": 600,
-      "timeSec": 30,
+      "timeSec": 10,
       "questionType": "multi_select",
-      "explanation": "✅ JAWABAN BENAR: Pilihan 1 dan 3.\nJejak digital positif mencerminkan integritas dan karakter diri kita sebagai pelajar berprestasi SMP Negeri 7 Yogyakarta.",
-      "tags": ["digital-footprint", "multi-select", "etika"]
+      "explanation": "JAWABAN BENAR: Pilihan 1 dan 3.\nJejak digital positif mencerminkan integritas dan karakter diri kita sebagai pelajar berprestasi SMP Negeri 7 Yogyakarta.",
+      "tags": [
+        "digital-footprint",
+        "multi-select",
+        "etika"
+      ]
     },
     {
-      "text": "🛍️ IKLAN BELANJA ONLINE TERLALU MURAH\n\nDi media sosial muncul iklan: \"iPhone 15 Pro Max Baru cuma Rp 600.000! Promo Cuci Gudang Bea Cukai. Bayar langsung transfer ke rekening pribadi penjual!\".\n\nSebagai konsumen cerdas, apa tindakanmu?",
+      "text": "IKLAN BELANJA ONLINE TERLALU MURAH\n\nDi media sosial muncul iklan: \"iPhone 15 Pro Max Baru cuma Rp 600.000! Promo Cuci Gudang Bea Cukai. Bayar langsung transfer ke rekening pribadi penjual!\".\n\nSebagai konsumen cerdas, apa tindakanmu?",
       "options": [
         "KLIK — Segera transfer sebelum promonya habis!",
         "SKIP — Waspada! Ini modus klasik penipuan belanja online (Online Shopping Scam)"
       ],
       "correctIndex": 1,
       "baseScore": 500,
-      "timeSec": 25,
+      "timeSec": 10,
       "questionType": "multiple_choice",
       "imageUrl": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800",
-      "explanation": "🚨 JAWABAN BENAR: SKIP!\nJika tawaran terdengar terlalu muluk dan tidak masuk akal (too good to be true), 99% itu adalah penipuan. Selalu gunakan platform e-commerce resmi dengan rekening bersama.",
-      "tags": ["online-scam", "shopping", "literasi"]
+      "explanation": "JAWABAN BENAR: SKIP!\nJika tawaran terdengar terlalu muluk dan tidak masuk akal (too good to be true), 99% itu adalah penipuan. Selalu gunakan platform e-commerce resmi dengan rekening bersama.",
+      "tags": [
+        "online-scam",
+        "shopping",
+        "literasi"
+      ]
     },
     {
-      "text": "🛡️ TWO-FACTOR AUTHENTICATION (2FA)\n\nAplikasi Instagram / Google menampilkan saran: \"Aktifkan Autentikasi Dua Langkah (2FA) agar setiap ada perangkat baru yang login harus memasukkan kode konfirmasi dari HP Anda\".\n\nApakah fitur ini sebaiknya kamu aktifkan?",
+      "text": "TWO-FACTOR AUTHENTICATION (2FA)\n\nAplikasi Instagram / Google menampilkan saran: \"Aktifkan Autentikasi Dua Langkah (2FA) agar setiap ada perangkat baru yang login harus memasukkan kode konfirmasi dari HP Anda\".\n\nApakah fitur ini sebaiknya kamu aktifkan?",
       "options": [
         "KLIK — Sangat bagus! Akun tetap aman terlindungi meskipun password sempat bocor",
         "SKIP — Malas, karena bikin proses login jadi lebih lama"
       ],
       "correctIndex": 0,
       "baseScore": 500,
-      "timeSec": 20,
+      "timeSec": 10,
       "questionType": "multiple_choice",
-      "explanation": "✅ JAWABAN BENAR: KLIK!\n2FA adalah dinding pertahanan terbaik. Meskipun hacker mengetahui passwordmu, mereka tetap tidak bisa masuk tanpa kode verifikasi fisik dari smartphone milikmu.",
-      "tags": ["2fa", "security", "best-practice"]
+      "explanation": "JAWABAN BENAR: KLIK!\n2FA adalah dinding pertahanan terbaik. Meskipun hacker mengetahui passwordmu, mereka tetap tidak bisa masuk tanpa kode verifikasi fisik dari smartphone milikmu.",
+      "tags": [
+        "2fa",
+        "security",
+        "best-practice"
+      ]
     },
     {
-      "text": "🧠 FAKTA SEPUTAR KEJAHATAN PHISHING\n\nManakah pernyataan yang BENAR mengenai kejahatan Phishing di dunia internet?\n(PILIH 2 JAWABAN BENAR)",
+      "text": "FAKTA SEPUTAR KEJAHATAN PHISHING\n\nManakah pernyataan yang BENAR mengenai kejahatan Phishing di dunia internet?\n(PILIH 2 JAWABAN BENAR)",
       "options": [
         "Tujuannya adalah memancing korban agar sukarela memberikan data sensitif (password, PIN, OTP)",
         "Phishing hanya bisa menyerang komputer jadul dan tidak bisa bekerja di smartphone",
@@ -229,42 +307,57 @@
         "Semua link phishing pasti otomatis langsung terblokir oleh Google Chrome"
       ],
       "correctIndex": 0,
-      "correctIndices": [0, 2],
+      "correctIndices": [
+        0,
+        2
+      ],
       "baseScore": 600,
-      "timeSec": 30,
+      "timeSec": 10,
       "questionType": "multi_select",
-      "explanation": "✅ JAWABAN BENAR: Pilihan 1 dan 3.\nPhishing adalah rekayasa sosial (social engineering) yang menipu psikologi korban agar menyerahkan data rahasianya sendiri secara tidak sadar.",
-      "tags": ["phishing", "multi-select", "cyber-knowledge"]
+      "explanation": "JAWABAN BENAR: Pilihan 1 dan 3.\nPhishing adalah rekayasa sosial (social engineering) yang menipu psikologi korban agar menyerahkan data rahasianya sendiri secara tidak sadar.",
+      "tags": [
+        "phishing",
+        "multi-select",
+        "cyber-knowledge"
+      ]
     },
     {
-      "text": "⚠️ POP-UP PALSU: HP TERKENA 13 VIRUS!\n\nSaat sedang membaca artikel tugas di internet, tiba-tiba layarmu bergetar merah dan muncul tulisan:\n\"PERINGATAN! HP ANDA TERINFEKSI 13 VIRUS BERBAHAYA! Klik tombol di bawah ini dalam 30 detik untuk membersihkan!\".\n\nApa tindakanmu?",
+      "text": "POP-UP PALSU: HP TERKENA 13 VIRUS!\n\nSaat sedang membaca artikel tugas di internet, tiba-tiba layarmu bergetar merah dan muncul tulisan:\n\"PERINGATAN! HP ANDA TERINFEKSI 13 VIRUS BERBAHAYA! Klik tombol di bawah ini dalam 30 detik untuk membersihkan!\".\n\nApa tindakanmu?",
       "options": [
         "KLIK — Panik dan unduh aplikasi pembersih yang ditawarkan pop-up tersebut",
         "SKIP — Tenang, tutup tab browser! Itu adalah Scareware/iklan jebakan pemaksa instal aplikasi"
       ],
       "correctIndex": 1,
       "baseScore": 500,
-      "timeSec": 25,
+      "timeSec": 10,
       "questionType": "multiple_choice",
       "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800",
-      "explanation": "🚨 JAWABAN BENAR: SKIP!\nIni dinamakan 'Scareware' — iklan palsu yang menakut-nakuti agar korban menginstal aplikasi mencurigakan. Browser biasa tidak bisa memindai virus di dalam HP kamu.",
-      "tags": ["scareware", "fake-alert", "browser"]
+      "explanation": "JAWABAN BENAR: SKIP!\nIni dinamakan 'Scareware' — iklan palsu yang menakut-nakuti agar korban menginstal aplikasi mencurigakan. Browser biasa tidak bisa memindai virus di dalam HP kamu.",
+      "tags": [
+        "scareware",
+        "fake-alert",
+        "browser"
+      ]
     },
     {
-      "text": "🏫 MENGAKSES WEBSITE RESMI SMPN 7 YOGYAKARTA\n\nKamu membuka portal web resmi SMP Negeri 7 Yogyakarta untuk melihat jadwal pengumuman kegiatan tengah semester tanpa ada formulir yang meminta password akun sosmedmu.\n\nApakah aman untuk dijelajahi?",
+      "text": "MENGAKSES WEBSITE RESMI SMPN 7 YOGYAKARTA\n\nKamu membuka portal web resmi SMP Negeri 7 Yogyakarta untuk melihat jadwal pengumuman kegiatan tengah semester tanpa ada formulir yang meminta password akun sosmedmu.\n\nApakah aman untuk dijelajahi?",
       "options": [
         "KLIK — Sangat aman, bersumber dari kanal resmi sekolah",
         "SKIP — Takut membuka website"
       ],
       "correctIndex": 0,
       "baseScore": 500,
-      "timeSec": 20,
+      "timeSec": 10,
       "questionType": "multiple_choice",
-      "explanation": "✅ JAWABAN BENAR: KLIK!\nMengakses informasi dari sumber dan situs resmi sekolah yang telah diverifikasi adalah contoh literasi digital yang tepat dan bertanggung jawab.",
-      "tags": ["official", "school", "smpn7"]
+      "explanation": "JAWABAN BENAR: KLIK!\nMengakses informasi dari sumber dan situs resmi sekolah yang telah diverifikasi adalah contoh literasi digital yang tepat dan bertanggung jawab.",
+      "tags": [
+        "official",
+        "school",
+        "smpn7"
+      ]
     },
     {
-      "text": "💪 CONTOH PASSWORD KUAT & TANGGUH\n\nManakah contoh kombinasi kata sandi di bawah ini yang paling KUAT dan sulit ditembus oleh serangan peretas?\n(PILIH 2 JAWABAN BENAR)",
+      "text": "CONTOH PASSWORD KUAT & TANGGUH\n\nManakah contoh kombinasi kata sandi di bawah ini yang paling KUAT dan sulit ditembus oleh serangan peretas?\n(PILIH 2 JAWABAN BENAR)",
       "options": [
         "12345678",
         "SMPN7#J0gjaKreatif!",
@@ -272,26 +365,37 @@
         "KucingL0mpat!2026?"
       ],
       "correctIndex": 1,
-      "correctIndices": [1, 3],
+      "correctIndices": [
+        1,
+        3
+      ],
       "baseScore": 600,
-      "timeSec": 30,
+      "timeSec": 10,
       "questionType": "multi_select",
-      "explanation": "✅ JAWABAN BENAR: Pilihan 2 dan 4.\nKombinasi password yang kuat harus panjang (>12 karakter) dan menggabungkan huruf besar, huruf kecil, angka, serta simbol unik.",
-      "tags": ["strong-password", "multi-select", "security"]
+      "explanation": "JAWABAN BENAR: Pilihan 2 dan 4.\nKombinasi password yang kuat harus panjang (>12 karakter) dan menggabungkan huruf besar, huruf kecil, angka, serta simbol unik.",
+      "tags": [
+        "strong-password",
+        "multi-select",
+        "security"
+      ]
     },
     {
-      "text": "🖥️ LOGOUT DI KOMPUTER LAB SEKOLAH\n\nSetelah selesai pelajaran Informatika di Lab Komputer SMPN 7 Yogyakarta, akun email/sosmed milikmu masih tersambung di browser komputer sekolah. Bel pergantian jam sudah berbunyi.\n\nApa yang WAJIB kamu lakukan sebelum meninggalkan ruangan?",
+      "text": "LOGOUT DI KOMPUTER LAB SEKOLAH\n\nSetelah selesai pelajaran Informatika di Lab Komputer SMPN 7 Yogyakarta, akun email/sosmed milikmu masih tersambung di browser komputer sekolah. Bel pergantian jam sudah berbunyi.\n\nApa yang WAJIB kamu lakukan sebelum meninggalkan ruangan?",
       "options": [
         "KLIK LOGOUT — Wajib logout dan tutup semua jendela browser agar akun tidak disalahgunakan orang lain",
         "SKIP — Biarkan saja tetap login agar besok minggu depan tidak perlu repot mengetik password lagi"
       ],
       "correctIndex": 0,
       "baseScore": 500,
-      "timeSec": 25,
+      "timeSec": 10,
       "questionType": "multiple_choice",
       "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800",
-      "explanation": "✅ JAWABAN BENAR: KLIK LOGOUT!\nDi komputer bersama (public/shared computer), tidak logout sama saja meninggalkan rumah tanpa mengunci pintu. Siapa pun setelahmu bisa mengakses data pribadimu!",
-      "tags": ["lab-komputer", "logout", "shared-device"]
+      "explanation": "JAWABAN BENAR: KLIK LOGOUT!\nDi komputer bersama (public/shared computer), tidak logout sama saja meninggalkan rumah tanpa mengunci pintu. Siapa pun setelahmu bisa mengakses data pribadimu!",
+      "tags": [
+        "lab-komputer",
+        "logout",
+        "shared-device"
+      ]
     }
   ]
 }

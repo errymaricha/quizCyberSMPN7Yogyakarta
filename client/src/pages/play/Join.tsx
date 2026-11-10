@@ -163,8 +163,8 @@ export default function Join() {
           </div>
           <Subtitle className="mt-3 text-xs font-mono font-bold uppercase text-black/70">
             {step === 'form'
-              ? '⚡ Masukkan PIN & Nama untuk Bergabung'
-              : '🎨 Pilih Avatar Karakter Kamu'}
+              ? 'Masukkan PIN & Nama untuk Bergabung'
+              : 'Pilih Avatar Karakter Kamu'}
           </Subtitle>
         </div>
 

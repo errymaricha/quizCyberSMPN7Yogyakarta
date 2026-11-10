@@ -18,7 +18,7 @@ const DEFAULTS: AppConfig = {
   appSubtitle: 'Cyber Challenge: Klik atau Skip? — Think Before You Click!',
   jwtSecret: PLACEHOLDER_SECRET,
   allowedDomain: '',
-  questionTimeSec: 20,
+  questionTimeSec: 10,
   defaultBaseScore: 500,
   speedBonusMax: 200,
   speedBonusMin: 10,

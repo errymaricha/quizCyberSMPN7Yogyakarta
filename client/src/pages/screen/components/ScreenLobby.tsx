@@ -1,5 +1,4 @@
 import { QRCodeSVG } from 'qrcode.react';
-import { ExternalLink, Presentation } from 'lucide-react';
 import { LobbyPlayers } from '@/components/game/LobbyPlayers';
 import { QuizIntroCard } from '@/components/game/QuizIntroCard';
 import { useApp } from '@/context/AppContext';
@@ -38,13 +37,12 @@ export function ScreenLobby({ pin, title, questionCount, intro, players }: Props
             href={GOOGLE_SLIDES_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 font-mono text-xs font-black uppercase tracking-wider bg-[#22C55E] text-black border-3 border-black px-3.5 py-1.5 rounded-lg shadow-[3px_3px_0px_#000] hover:bg-[#4ADE80] transition-colors"
+            className="inline-flex items-center font-mono text-xs font-black uppercase tracking-wider bg-[#22C55E] text-black border-3 border-black px-3.5 py-1.5 rounded-lg shadow-[3px_3px_0px_#000] hover:bg-[#4ADE80] transition-colors"
           >
-            <Presentation className="size-4" /> Buka Google Slides
-            <ExternalLink className="size-3.5" />
+            Buka Google Slides ↗
           </a>
           <div className="font-mono text-xs sm:text-sm font-black uppercase tracking-wider bg-[#00F0FF] border-3 border-black px-3.5 py-1.5 rounded-lg shadow-[3px_3px_0px_#000]">
-            🛡️ CYBER CHALLENGE: KLIK ATAU SKIP?
+            CYBER CHALLENGE: KLIK ATAU SKIP?
           </div>
         </div>
       </div>
@@ -53,7 +51,7 @@ export function ScreenLobby({ pin, title, questionCount, intro, players }: Props
         {/* Left: Join Info & QR Code */}
         <div className="flex min-w-0 flex-col items-center gap-4 text-center">
           <div className="inline-block border-2 border-black bg-white px-4 py-1 text-sm font-mono font-black uppercase tracking-widest shadow-[3px_3px_0px_#000] rounded-md">
-            📲 PINDAI UNTUK BERGABUNG
+            PINDAI UNTUK BERGABUNG
           </div>
 
           <div className="w-full max-w-[min(46vh,420px)] rounded-2xl bg-white p-5 border-4 border-black shadow-[10px_10px_0px_#000]">
@@ -93,7 +91,7 @@ export function ScreenLobby({ pin, title, questionCount, intro, players }: Props
 
           <div className="flex flex-col items-center gap-4 text-center border-4 border-black bg-white p-6 rounded-2xl shadow-[8px_8px_0px_#000]">
             <div className="inline-block bg-[#22C55E] text-black border-2 border-black px-4 py-1 rounded-full font-mono text-sm font-black uppercase tracking-wider shadow-[3px_3px_0px_#000]">
-              👥 {players.length} Peserta Sudah Bergabung
+              {players.length} Peserta Sudah Bergabung
             </div>
             <LobbyPlayers players={players} />
           </div>

@@ -3,25 +3,12 @@ import { AuthCard, PageCenter } from '@/components/layout';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useApp } from '@/context/AppContext';
-import { ExternalLink, Presentation, Smartphone, Zap } from 'lucide-react';
 
 export default function Landing() {
   const { displayName, appSubtitle } = useApp();
 
   return (
     <PageCenter className="relative overflow-hidden bg-[#FFFDF5] min-h-screen">
-      {/* Decorative Neo-Brutalism Stickers */}
-      <div className="absolute top-8 left-8 hidden md:block -rotate-6 select-none pointer-events-none">
-        <div className="bg-[#00F0FF] text-black border-3 border-black px-3.5 py-1.5 shadow-[4px_4px_0px_#000] font-mono text-xs font-black uppercase">
-          ⚡ CYBER CHALLENGE
-        </div>
-      </div>
-      <div className="absolute bottom-8 right-8 hidden md:block rotate-3 select-none pointer-events-none">
-        <div className="bg-[#FF3366] text-white border-3 border-black px-4 py-2 shadow-[5px_5px_0px_#000] font-mono text-xs font-black uppercase">
-          🛡️ KLIK ATAU SKIP?
-        </div>
-      </div>
-
       <AuthCard maxWidth="lg" className="max-w-[480px] text-center border-4 border-black bg-white shadow-[10px_10px_0px_#000] p-2">
         <div className="mb-6 flex flex-col items-center">
           <Badge variant="default" className="mb-3 bg-[#FFE600] text-black border-2 border-black px-3 py-1 text-xs font-black tracking-widest shadow-[3px_3px_0px_#000]">
@@ -41,8 +28,7 @@ export default function Landing() {
 
         <div className="flex flex-col gap-3.5">
           <Button asChild variant="default" size="lg" className="w-full text-base font-black bg-[#FFE600] text-black border-3 border-black shadow-[5px_5px_0px_#000] hover:bg-[#FFF066]">
-            <Link to="/play" className="flex items-center justify-center gap-2">
-              <Smartphone className="size-5" />
+            <Link to="/play" className="flex items-center justify-center">
               <span>GABUNG PERMAINAN (SISWA)</span>
             </Link>
           </Button>
@@ -51,16 +37,13 @@ export default function Landing() {
             href="https://docs.google.com/presentation/d/1RyYz--dXTAD8B3V8k4Pf0OU1a1FR6AoYxv4kAR0-g3s/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full flex items-center justify-center gap-2 py-3 px-4 text-sm font-black bg-[#22C55E] text-black border-3 border-black shadow-[5px_5px_0px_#000] hover:bg-[#4ADE80] hover:translate-x-0.5 hover:translate-y-0.5 transition-all rounded-md"
+            className="w-full flex items-center justify-center py-3 px-4 text-sm font-black bg-[#22C55E] text-black border-3 border-black shadow-[5px_5px_0px_#000] hover:bg-[#4ADE80] hover:translate-x-0.5 hover:translate-y-0.5 transition-all rounded-md"
           >
-            <Presentation className="size-5" />
             <span>MULAI PRESENTASI (GOOGLE SLIDES)</span>
-            <ExternalLink className="size-4 ml-0.5" />
           </a>
 
           <Button asChild variant="secondary" size="lg" className="w-full text-sm font-black bg-[#00F0FF] text-black border-3 border-black shadow-[5px_5px_0px_#000] hover:bg-[#66F4FF]">
-            <Link to="/login" className="flex items-center justify-center gap-2">
-              <Zap className="size-4" />
+            <Link to="/login" className="flex items-center justify-center">
               <span>MASUK PEMATERI / ADMIN</span>
             </Link>
           </Button>
