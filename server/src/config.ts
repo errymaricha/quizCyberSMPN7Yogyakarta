@@ -43,6 +43,7 @@ export function loadConfig(): AppConfig {
   // Merge: saved values win; any key missing from the file falls back to DEFAULTS
   const cfg = { ...DEFAULTS, ...saved };
   // Env vars always win over file — useful for Docker deployments
+  if (process.env.PORT) cfg.port = parseInt(process.env.PORT, 10) || 3000;
   if (process.env.JWT_SECRET) cfg.jwtSecret = process.env.JWT_SECRET;
   if (process.env.ALLOWED_DOMAIN !== undefined) cfg.allowedDomain = process.env.ALLOWED_DOMAIN;
   if (process.env.PUBLIC_URL) cfg.publicUrl = process.env.PUBLIC_URL;
