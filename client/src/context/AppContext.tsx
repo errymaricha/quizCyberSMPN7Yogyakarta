@@ -12,7 +12,7 @@ interface AppContextValue {
   brandName: string;
 }
 
-const DEFAULT_APP_NAME = 'Quis SMP Negri 12 Yogyakarta Voxpayana';
+const DEFAULT_APP_NAME = 'Quis SMP Negeri 7 Yogyakarta';
 const DEFAULT_SUBTITLE = 'Cyber Challenge: Klik atau Skip? — Think Before You Click!';
 
 const AppContext = createContext<AppContextValue>({
@@ -21,7 +21,7 @@ const AppContext = createContext<AppContextValue>({
   allowedDomain: '',
   publicUrl: '',
   displayName: DEFAULT_APP_NAME,
-  brandName: 'SMPN 12 VOXPAYANA',
+  brandName: 'SMPN 7 YOGYAKARTA',
 });
 
 function buildDisplay(
@@ -54,20 +54,16 @@ export function AppProvider({ children }: { children: ReactNode }) {
           allowedDomain,
           publicUrl,
         }: {
-          appName: string;
-          appSubtitle: string;
+          appName?: string;
+          appSubtitle?: string;
           allowedDomain?: string;
           publicUrl?: string;
-        }) =>
-          setValue(buildDisplay(appName, appSubtitle ?? '', allowedDomain ?? '', publicUrl ?? '')),
+        }) => {
+          setValue(buildDisplay(appName ?? '', appSubtitle ?? '', allowedDomain ?? '', publicUrl ?? ''));
+        },
       )
       .catch(() => {});
   }, []);
-
-  // Keep browser tab title in sync
-  useEffect(() => {
-    document.title = value.displayName;
-  }, [value.displayName]);
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
 }

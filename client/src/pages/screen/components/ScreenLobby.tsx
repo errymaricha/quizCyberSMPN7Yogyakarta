@@ -24,10 +24,10 @@ export function ScreenLobby({ pin, title, questionCount, intro, players }: Props
       <div className="flex flex-wrap items-center justify-between gap-4 border-b-4 border-black pb-4">
         <div className="inline-flex items-center gap-2.5 border-3 border-black bg-[#FFE600] px-4 py-2 shadow-[4px_4px_0px_#000] rounded-xl -rotate-1">
           <span className="font-mono text-xs font-black uppercase tracking-widest bg-black text-[#FFE600] px-2.5 py-1 rounded">
-            VOXPAYANA
+            SMPN 7 YOGYAKARTA
           </span>
           <span className="text-base sm:text-lg font-black uppercase tracking-tight text-black">
-            Quis SMP Negri 12 Yogyakarta Voxpayana
+            Quis SMP Negeri 7 Yogyakarta
           </span>
         </div>
         <div className="font-mono text-xs sm:text-sm font-black uppercase tracking-wider bg-[#00F0FF] border-3 border-black px-3.5 py-1.5 rounded-lg shadow-[3px_3px_0px_#000]">

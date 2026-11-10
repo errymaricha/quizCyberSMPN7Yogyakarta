@@ -21,7 +21,7 @@ export function ScreenEnded({ title, leaderboard, chooseQuizMaker }: Props) {
       <div className="flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center bg-[#FFFDF5]">
         <div className="inline-block border-3 border-black bg-[#FFE600] px-4 py-2 shadow-[4px_4px_0px_#000] rounded-xl -rotate-1">
           <span className="text-base font-black uppercase tracking-tight text-black">
-            Quis SMP Negri 12 Yogyakarta Voxpayana
+            Quis SMP Negeri 7 Yogyakarta
           </span>
         </div>
         <h1 className="text-4xl font-black uppercase tracking-tight">Permainan Selesai</h1>
@@ -36,10 +36,10 @@ export function ScreenEnded({ title, leaderboard, chooseQuizMaker }: Props) {
 
       <div className="inline-flex items-center gap-2 border-3 border-black bg-[#FFE600] px-4 py-1.5 shadow-[4px_4px_0px_#000] rounded-xl -rotate-1">
         <span className="font-mono text-xs font-black uppercase tracking-wider bg-black text-[#FFE600] px-2 py-0.5 rounded">
-          VOXPAYANA
+          SMPN 7 YOGYAKARTA
         </span>
         <span className="text-sm sm:text-base font-black uppercase tracking-tight text-black">
-          Quis SMP Negri 12 Yogyakarta Voxpayana
+          Quis SMP Negeri 7 Yogyakarta
         </span>
       </div>
 

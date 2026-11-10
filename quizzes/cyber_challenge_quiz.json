@@ -1,6 +1,6 @@
 {
-  "title": "Cyber Challenge: Klik atau Skip? — SMP N 12 Yogyakarta",
-  "description": "Kuis Edukasi Keamanan Digital 'Think Before You Click!' untuk Siswa SMP Negeri 12 Yogyakarta (Voxpayana).",
+  "title": "Cyber Challenge: Klik atau Skip? — SMP Negeri 7 Yogyakarta",
+  "description": "Kuis Edukasi Keamanan Digital 'Think Before You Click!' untuk Siswa SMP Negeri 7 Yogyakarta.",
   "language": "id",
   "questions": [
     {
@@ -69,7 +69,7 @@
       "tags": ["privacy", "oversharing", "social-media"]
     },
     {
-      "text": "🏫 INFORMASI KEGIATAN SEKOLAH DI SITUS RESMI\n\nKamu membuka situs atau kanal resmi SMP Negeri 12 Yogyakarta yang sudah kamu kenal baik untuk membaca jadwal kegiatan tengah semester. Di halaman tersebut hanya ada informasi jadwal tanpa meminta password atau data sensitif.\n\nApakah aman untuk dibuka?",
+      "text": "🏫 INFORMASI KEGIATAN SEKOLAH DI SITUS RESMI\n\nKamu membuka situs atau kanal resmi SMP Negeri 7 Yogyakarta yang sudah kamu kenal baik untuk membaca jadwal kegiatan tengah semester. Di halaman tersebut hanya ada informasi jadwal tanpa meminta password atau data sensitif.\n\nApakah aman untuk dibuka?",
       "options": [
         "KLIK — Buka dan baca jadwal resmi sekolah",
         "SKIP — Hindari membuka halaman web"

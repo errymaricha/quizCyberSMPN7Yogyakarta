@@ -14,7 +14,7 @@ const PLACEHOLDER_SECRET = 'change-this-secret-in-production';
 // still has a sane value even if the persisted config.json pre-dates it.
 const DEFAULTS: AppConfig = {
   port: 3000,
-  appName: 'Quis SMP Negri 12 Yogyakarta Voxpayana',
+  appName: 'Quis SMP Negeri 7 Yogyakarta',
   appSubtitle: 'Cyber Challenge: Klik atau Skip? — Think Before You Click!',
   jwtSecret: PLACEHOLDER_SECRET,
   allowedDomain: '',

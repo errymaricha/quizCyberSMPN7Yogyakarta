@@ -6,9 +6,6 @@ import { cn } from '@/lib/utils';
 import { useApp } from '../context/AppContext';
 import { useAuth } from '../context/AuthContext';
 
-const navBtn =
-  'rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground';
-
 interface Props {
   basePath: string;
   loginPath: string;
@@ -57,7 +54,7 @@ export default function CreatorNavBar({
         >
           <Zap className="size-4 shrink-0 fill-black text-black" />
           <span className="truncate text-sm sm:text-base font-black uppercase tracking-tight text-black">
-            {appName || 'Quis SMP Negri 12 Yogyakarta Voxpayana'}
+            {appName || 'Quis SMP Negeri 7 Yogyakarta'}
           </span>
         </Link>
 
@@ -69,63 +66,71 @@ export default function CreatorNavBar({
           ))}
         </div>
 
-        <div className="flex-1" />
-
-        <div className="hidden items-center gap-1.5 md:flex">
-          <a href="/play" target="_blank" className={navBtn} rel="noopener">
-            {playLabel}
-          </a>
-          <Button type="button" onClick={handleLogout} variant="ghost" size="sm">
-            Log out
-          </Button>
+        <div className="ml-auto hidden items-center gap-2 md:flex">
+          <Link
+            to="/play"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-3 py-1.5 font-bold uppercase text-xs border-2 border-black bg-[#00F0FF] rounded-md shadow-[2px_2px_0px_#000] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none transition-all text-black"
+          >
+            <Play className="size-3.5 fill-black" /> {playLabel}
+          </Link>
+          <button
+            type="button"
+            onClick={handleLogout}
+            className="flex items-center gap-1.5 px-3 py-1.5 font-bold uppercase text-xs border-2 border-black bg-[#FF3366] text-white rounded-md shadow-[2px_2px_0px_#000] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none transition-all cursor-pointer"
+          >
+            <LogOut className="size-3.5" /> Logout
+          </button>
         </div>
 
-        <Button
+        <button
           type="button"
-          variant="ghost"
-          size="icon-sm"
-          className="md:hidden"
-          aria-expanded={menuOpen}
-          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
           onClick={() => setMenuOpen((o) => !o)}
+          aria-label="Toggle navigation menu"
+          className="ml-auto flex size-9 items-center justify-center rounded-lg border border-border text-foreground md:hidden"
         >
           {menuOpen ? <X className="size-5" /> : <Menu className="size-5" />}
-        </Button>
+        </button>
       </div>
 
       {menuOpen && (
-        <div className="border-t border-border bg-card px-3 py-3 md:hidden">
+        <div className="border-t border-border px-3 pb-3 pt-2 md:hidden">
           <div className="flex flex-col gap-1">
             {links.map(({ to, label }) => (
               <Link
                 key={to}
                 to={to}
-                className={cn(active(to), 'block px-3 py-2.5')}
                 onClick={() => setMenuOpen(false)}
+                className={cn(active(to), 'w-full justify-start')}
               >
                 {label}
               </Link>
             ))}
-            <a
-              href="/play"
-              target="_blank"
-              rel="noopener"
-              className={cn(navBtn, 'flex items-center gap-2 px-3 py-2.5')}
-              onClick={() => setMenuOpen(false)}
-            >
-              <Play className="size-4" /> {playLabel}
-            </a>
-            <Button
-              type="button"
-              variant="ghost"
-              className="justify-start px-3"
-              onClick={handleLogout}
-            >
-              <LogOut className="size-4" /> Log out
-            </Button>
+            <div className="mt-2 flex flex-col gap-1.5 border-t border-border pt-2">
+              <Link
+                to="/play"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMenuOpen(false)}
+                className="flex items-center gap-1.5 px-3 py-1.5 text-xs text-muted-foreground"
+              >
+                <Play className="size-3.5" /> {playLabel}
+              </Link>
+              <button
+                type="button"
+                onClick={handleLogout}
+                className="flex items-center gap-1.5 px-3 py-1.5 text-xs text-muted-foreground"
+              >
+                <LogOut className="size-3.5" /> Logout
+              </button>
+            </div>
           </div>
         </div>
       )}
     </nav>
   );
 }
+
+const navBtn =
+  'inline-flex items-center px-3 py-1.5 text-xs font-bold uppercase rounded-md border-2 border-black bg-white shadow-[2px_2px_0px_#000] hover:bg-[#FFE600] transition-colors';

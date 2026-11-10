@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom';
 import { AuthCard, PageCenter } from '@/components/layout';
-import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ShieldAlert, Zap, Trophy, Smartphone } from 'lucide-react';
-import { useApp } from '../context/AppContext';
+import { Badge } from '@/components/ui/badge';
+import { useApp } from '@/context/AppContext';
+import { Smartphone, Zap } from 'lucide-react';
 
 export default function Landing() {
   const { displayName, appSubtitle } = useApp();
 
   return (
-    <PageCenter className="relative overflow-hidden bg-[#FFFDF5]">
-      {/* Decorative Neo-Brutalist floating stamps */}
-      <div className="absolute top-6 left-6 hidden md:block -rotate-6 select-none pointer-events-none">
+    <PageCenter className="relative overflow-hidden bg-[#FFFDF5] min-h-screen">
+      {/* Decorative Neo-Brutalism Stickers */}
+      <div className="absolute top-8 left-8 hidden md:block -rotate-6 select-none pointer-events-none">
         <div className="bg-[#00F0FF] text-black border-3 border-black px-3.5 py-1.5 shadow-[4px_4px_0px_#000] font-mono text-xs font-black uppercase">
           ⚡ CYBER CHALLENGE
         </div>
@@ -25,12 +25,12 @@ export default function Landing() {
       <AuthCard maxWidth="lg" className="max-w-[480px] text-center border-4 border-black bg-white shadow-[10px_10px_0px_#000] p-2">
         <div className="mb-6 flex flex-col items-center">
           <Badge variant="default" className="mb-3 bg-[#FFE600] text-black border-2 border-black px-3 py-1 text-xs font-black tracking-widest shadow-[3px_3px_0px_#000]">
-            VOXPAYANA • SMPN 12 YOGYAKARTA
+            SMP NEGERI 7 YOGYAKARTA
           </Badge>
 
           <div className="my-2 inline-block border-3 border-black bg-[#FFE600] px-5 py-3 shadow-[5px_5px_0px_#000] rounded-xl -rotate-1">
             <h1 className="text-xl sm:text-2xl font-black uppercase tracking-tight text-black leading-tight">
-              {displayName || 'Quis SMP Negri 12 Yogyakarta Voxpayana'}
+              {displayName || 'Quis SMP Negeri 7 Yogyakarta'}
             </h1>
           </div>
 
@@ -59,10 +59,8 @@ export default function Landing() {
           </Button>
         </div>
 
-        <div className="mt-6 pt-4 border-t-2 border-black/10 flex items-center justify-center gap-4 text-[11px] font-mono text-black/60 font-bold uppercase">
-          <span>🔒 Edukasi Keamanan Digital</span>
-          <span>•</span>
-          <span>🎯 Real-Time Quiz</span>
+        <div className="mt-6 border-t-2 border-dashed border-black/30 pt-4 text-[11px] font-mono font-bold uppercase text-black/70">
+          SMP Negeri 7 Yogyakarta • Think Before You Click!
         </div>
       </AuthCard>
     </PageCenter>

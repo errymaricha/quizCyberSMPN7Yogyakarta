@@ -1,13 +1,13 @@
 <div align="center">
 
-# ⚡ Quis SMP Negri 12 Yogyakarta Voxpayana
+# ⚡ Quis SMP Negeri 7 Yogyakarta
 ### Cyber Challenge: Klik atau Skip? — Think Before You Click!
 
-Aplikasi web kuis interaktif *real-time* berbasis WebSocket untuk kegiatan edukasi keamanan digital bagi siswa **SMP Negeri 12 Yogyakarta (Voxpayana)**.
+Aplikasi web kuis interaktif *real-time* berbasis WebSocket untuk kegiatan edukasi keamanan digital bagi siswa **SMP Negeri 7 Yogyakarta**.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg?style=for-the-badge)](LICENSE)
 [![Design: Neo-Brutalism](https://img.shields.io/badge/Design-Neo--Brutalism-FFE600.svg?style=for-the-badge&logoColor=black)](https://github.com/errymaricha/quizCyberVoxpayana)
-[![SMP Negeri 12 Yogyakarta](https://img.shields.io/badge/School-SMPN%2012%20Yogyakarta-00F0FF.svg?style=for-the-badge)](https://smpn12jogja.sch.id/)
+[![SMP Negeri 7 Yogyakarta](https://img.shields.io/badge/School-SMPN%207%20Yogyakarta-00F0FF.svg?style=for-the-badge)](https://smpn7jogja.sch.id/)
 
 ---
 
@@ -38,8 +38,8 @@ Aplikasi ini telah mengalami perombakan besar baik dari sisi antarmuka (*UI/UX*)
 - **Interaksi Tombol Taktil**: Efek tombol timbul yang bergeser ke kiri-atas saat di-*hover* dan menekan ke bawah saat di-*klik*.
 - **Podium Juara Neo-Brutalism**: Blok podium 3D dengan outline tebal, nomor juara kontras, serta avatar peserta bergaya stiker retro.
 
-### 2. Integrasi Identitas Sekolah (SMP Negeri 12 Yogyakarta)
-- Terpasang tulisan resmi: **"Quis SMP Negri 12 Yogyakarta Voxpayana"** dan badge lencana stiker: **"VOXPAYANA • SMPN 12 YOGYAKARTA"**.
+### 2. Integrasi Identitas Sekolah (SMP Negeri 7 Yogyakarta)
+- Terpasang tulisan resmi: **"Quis SMP Negeri 7 Yogyakarta"** dan badge lencana stiker: **"SMP NEGERI 7 YOGYAKARTA"**.
 - Tampil di seluruh halaman:
   - Halaman Beranda / *Landing Page* (`/`)
   - Halaman Masuk Siswa / *Join Screen* (`/play`)

@@ -21,7 +21,7 @@ export function PodiumScreen({ leaderboard, onContinue }: Props) {
 
       <div className="inline-block border-3 border-black bg-[#FFE600] px-3.5 py-1.5 shadow-[4px_4px_0px_#000] rounded-xl -rotate-1">
         <span className="text-xs sm:text-sm font-black uppercase tracking-tight text-black">
-          Quis SMP Negri 12 Yogyakarta Voxpayana
+          Quis SMP Negeri 7 Yogyakarta
         </span>
       </div>
 

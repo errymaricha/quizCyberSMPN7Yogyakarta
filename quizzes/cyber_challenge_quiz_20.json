@@ -1,11 +1,11 @@
 {
-  "title": "Cyber Challenge Voxpayana: Klik atau Skip? (20 Soal)",
-  "description": "Kuis Edukasi Keamanan Digital & Literasi Siber untuk Siswa SMP Negeri 12 Yogyakarta. Think Before You Click!",
+  "title": "Cyber Challenge SMP Negeri 7 Yogyakarta: Klik atau Skip? (20 Soal)",
+  "description": "Kuis Edukasi Keamanan Digital & Literasi Siber untuk Siswa SMP Negeri 7 Yogyakarta. Think Before You Click!",
   "coverImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200",
   "language": "id",
   "questions": [
     {
-      "text": "💎 DIAMOND GRATIS MOBILE LEGENDS!\n\nKamu menerima pesan WhatsApp dari nomor tidak dikenal:\n\"Selamat! Kamu memenangkan 10.000 Diamond MLBB GRATIS! Klik link bit.ly/ml-diamond-gratis lalu masukkan username dan PASSWORD akunmu sekarang!\"\n\nSebagai siswa bijak Voxpayana, apa tindakanmu?",
+      "text": "💎 DIAMOND GRATIS MOBILE LEGENDS!\n\nKamu menerima pesan WhatsApp dari nomor tidak dikenal:\n\"Selamat! Kamu memenangkan 10.000 Diamond MLBB GRATIS! Klik link bit.ly/ml-diamond-gratis lalu masukkan username dan PASSWORD akunmu sekarang!\"\n\nSebagai siswa bijak SMP Negeri 7 Yogyakarta, apa tindakanmu?",
       "options": [
         "KLIK — Lumayan dapat 10.000 Diamond gratis!",
         "SKIP — Waspada! Ini jebakan phishing pencurian akun"
@@ -190,7 +190,7 @@
       "baseScore": 600,
       "timeSec": 30,
       "questionType": "multi_select",
-      "explanation": "✅ JAWABAN BENAR: Pilihan 1 dan 3.\nJejak digital positif mencerminkan integritas dan karakter diri kita sebagai pelajar berprestasi SMP Negeri 12 Yogyakarta Voxpayana.",
+      "explanation": "✅ JAWABAN BENAR: Pilihan 1 dan 3.\nJejak digital positif mencerminkan integritas dan karakter diri kita sebagai pelajar berprestasi SMP Negeri 7 Yogyakarta.",
       "tags": ["digital-footprint", "multi-select", "etika"]
     },
     {
@@ -251,7 +251,7 @@
       "tags": ["scareware", "fake-alert", "browser"]
     },
     {
-      "text": "🏫 MENGAKSES WEBSITE RESMI SMPN 12 YOGYAKARTA\n\nKamu membuka portal web resmi SMP Negeri 12 Yogyakarta (Voxpayana) untuk melihat jadwal pengumuman kegiatan tengah semester tanpa ada formulir yang meminta password akun sosmedmu.\n\nApakah aman untuk dijelajahi?",
+      "text": "🏫 MENGAKSES WEBSITE RESMI SMPN 7 YOGYAKARTA\n\nKamu membuka portal web resmi SMP Negeri 7 Yogyakarta untuk melihat jadwal pengumuman kegiatan tengah semester tanpa ada formulir yang meminta password akun sosmedmu.\n\nApakah aman untuk dijelajahi?",
       "options": [
         "KLIK — Sangat aman, bersumber dari kanal resmi sekolah",
         "SKIP — Takut membuka website"
@@ -261,14 +261,14 @@
       "timeSec": 20,
       "questionType": "multiple_choice",
       "explanation": "✅ JAWABAN BENAR: KLIK!\nMengakses informasi dari sumber dan situs resmi sekolah yang telah diverifikasi adalah contoh literasi digital yang tepat dan bertanggung jawab.",
-      "tags": ["official", "school", "voxpayana"]
+      "tags": ["official", "school", "smpn7"]
     },
     {
       "text": "💪 CONTOH PASSWORD KUAT & TANGGUH\n\nManakah contoh kombinasi kata sandi di bawah ini yang paling KUAT dan sulit ditembus oleh serangan peretas?\n(PILIH 2 JAWABAN BENAR)",
       "options": [
         "12345678",
-        "V0xp@yana#12J0gja!",
-        "smpnegeri12yogyakarta",
+        "SMPN7#J0gjaKreatif!",
+        "smpnegeri7yogyakarta",
         "KucingL0mpat!2026?"
       ],
       "correctIndex": 1,
@@ -280,7 +280,7 @@
       "tags": ["strong-password", "multi-select", "security"]
     },
     {
-      "text": "🖥️ LOGOUT DI KOMPUTER LAB SEKOLAH\n\nSetelah selesai pelajaran Informatika di Lab Komputer SMPN 12 Yogyakarta, akun email/sosmed milikmu masih tersambung di browser komputer sekolah. Bel pergantian jam sudah berbunyi.\n\nApa yang WAJIB kamu lakukan sebelum meninggalkan ruangan?",
+      "text": "🖥️ LOGOUT DI KOMPUTER LAB SEKOLAH\n\nSetelah selesai pelajaran Informatika di Lab Komputer SMPN 7 Yogyakarta, akun email/sosmed milikmu masih tersambung di browser komputer sekolah. Bel pergantian jam sudah berbunyi.\n\nApa yang WAJIB kamu lakukan sebelum meninggalkan ruangan?",
       "options": [
         "KLIK LOGOUT — Wajib logout dan tutup semua jendela browser agar akun tidak disalahgunakan orang lain",
         "SKIP — Biarkan saja tetap login agar besok minggu depan tidak perlu repot mengetik password lagi"
