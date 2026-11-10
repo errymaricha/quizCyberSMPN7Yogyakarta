@@ -3,7 +3,7 @@ import { AuthCard, PageCenter } from '@/components/layout';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useApp } from '@/context/AppContext';
-import { Smartphone, Zap } from 'lucide-react';
+import { ExternalLink, Presentation, Smartphone, Zap } from 'lucide-react';
 
 export default function Landing() {
   const { displayName, appSubtitle } = useApp();
@@ -46,6 +46,17 @@ export default function Landing() {
               <span>GABUNG PERMAINAN (SISWA)</span>
             </Link>
           </Button>
+
+          <a
+            href="https://docs.google.com/presentation/d/1RyYz--dXTAD8B3V8k4Pf0OU1a1FR6AoYxv4kAR0-g3s/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full flex items-center justify-center gap-2 py-3 px-4 text-sm font-black bg-[#22C55E] text-black border-3 border-black shadow-[5px_5px_0px_#000] hover:bg-[#4ADE80] hover:translate-x-0.5 hover:translate-y-0.5 transition-all rounded-md"
+          >
+            <Presentation className="size-5" />
+            <span>MULAI PRESENTASI (GOOGLE SLIDES)</span>
+            <ExternalLink className="size-4 ml-0.5" />
+          </a>
 
           <Button asChild variant="secondary" size="lg" className="w-full text-sm font-black bg-[#00F0FF] text-black border-3 border-black shadow-[5px_5px_0px_#000] hover:bg-[#66F4FF]">
             <Link to="/login" className="flex items-center justify-center gap-2">

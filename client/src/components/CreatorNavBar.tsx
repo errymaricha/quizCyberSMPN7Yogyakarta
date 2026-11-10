@@ -1,4 +1,4 @@
-import { LogOut, Menu, Play, X, Zap } from 'lucide-react';
+import { ExternalLink, LogOut, Menu, Play, Presentation, X, Zap } from 'lucide-react';
 import { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -13,6 +13,8 @@ interface Props {
   showMyGames?: boolean;
   playLabel?: string;
 }
+
+const GOOGLE_SLIDES_URL = 'https://docs.google.com/presentation/d/1RyYz--dXTAD8B3V8k4Pf0OU1a1FR6AoYxv4kAR0-g3s/edit?usp=sharing';
 
 export default function CreatorNavBar({
   basePath,
@@ -67,6 +69,15 @@ export default function CreatorNavBar({
         </div>
 
         <div className="ml-auto hidden items-center gap-2 md:flex">
+          <a
+            href={GOOGLE_SLIDES_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-3 py-1.5 font-bold uppercase text-xs border-2 border-black bg-[#22C55E] text-black rounded-md shadow-[2px_2px_0px_#000] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none transition-all"
+            title="Buka Materi Presentasi Google Slides"
+          >
+            <Presentation className="size-3.5" /> Slides ↗
+          </a>
           <Link
             to="/play"
             target="_blank"
@@ -108,6 +119,15 @@ export default function CreatorNavBar({
               </Link>
             ))}
             <div className="mt-2 flex flex-col gap-1.5 border-t border-border pt-2">
+              <a
+                href={GOOGLE_SLIDES_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMenuOpen(false)}
+                className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-black bg-[#22C55E]/30 rounded"
+              >
+                <Presentation className="size-3.5" /> Buka Google Slides ↗
+              </a>
               <Link
                 to="/play"
                 target="_blank"

@@ -1,4 +1,5 @@
 import { QRCodeSVG } from 'qrcode.react';
+import { ExternalLink, Presentation } from 'lucide-react';
 import { LobbyPlayers } from '@/components/game/LobbyPlayers';
 import { QuizIntroCard } from '@/components/game/QuizIntroCard';
 import { useApp } from '@/context/AppContext';
@@ -12,6 +13,8 @@ interface Props {
   intro?: QuizIntro;
   players: PlayerInfo[];
 }
+
+const GOOGLE_SLIDES_URL = 'https://docs.google.com/presentation/d/1RyYz--dXTAD8B3V8k4Pf0OU1a1FR6AoYxv4kAR0-g3s/edit?usp=sharing';
 
 export function ScreenLobby({ pin, title, questionCount, intro, players }: Props) {
   const { publicUrl } = useApp();
@@ -30,8 +33,19 @@ export function ScreenLobby({ pin, title, questionCount, intro, players }: Props
             Quis SMP Negeri 7 Yogyakarta
           </span>
         </div>
-        <div className="font-mono text-xs sm:text-sm font-black uppercase tracking-wider bg-[#00F0FF] border-3 border-black px-3.5 py-1.5 rounded-lg shadow-[3px_3px_0px_#000]">
-          🛡️ CYBER CHALLENGE: KLIK ATAU SKIP?
+        <div className="flex flex-wrap items-center gap-3">
+          <a
+            href={GOOGLE_SLIDES_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 font-mono text-xs font-black uppercase tracking-wider bg-[#22C55E] text-black border-3 border-black px-3.5 py-1.5 rounded-lg shadow-[3px_3px_0px_#000] hover:bg-[#4ADE80] transition-colors"
+          >
+            <Presentation className="size-4" /> Buka Google Slides
+            <ExternalLink className="size-3.5" />
+          </a>
+          <div className="font-mono text-xs sm:text-sm font-black uppercase tracking-wider bg-[#00F0FF] border-3 border-black px-3.5 py-1.5 rounded-lg shadow-[3px_3px_0px_#000]">
+            🛡️ CYBER CHALLENGE: KLIK ATAU SKIP?
+          </div>
         </div>
       </div>
 
