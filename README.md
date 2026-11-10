@@ -61,6 +61,11 @@ Telah ditanamkan 8 skenario interaktif bertema **"Klik atau Skip?"** langsung ke
 | **7** | **Undangan / Paket File .APK** (File mencurigakan) | KLIK / SKIP | **SKIP** | Bahaya Trojan Sniffer pencuri saldo & SMS. |
 | **8** | **Autentikasi Dua Langkah (2FA)** (Perlindungan ganda) | KLIK / SKIP | **KLIK** | Sangat disarankan untuk mengamankan akun. |
 
+### 4. Integrasi Materi Presentasi (Google Slides)
+Tersedia tombol pintas bertema *Neo-Brutalism* untuk langsung meluncurkan materi presentasi:
+- 📊 **Link Materi:** [Google Slides — Cyber Challenge SMP Negeri 7 Yogyakarta](https://docs.google.com/presentation/d/1RyYz--dXTAD8B3V8k4Pf0OU1a1FR6AoYxv4kAR0-g3s/edit?usp=sharing)
+- Terintegrasi langsung di **Beranda (`/`)**, **Layar Proyektor (`/screen`)**, dan **Bilah Navigasi Guru (`/admin`)**.
+
 ---
 
 ## 🚀 Panduan Menjalankan
