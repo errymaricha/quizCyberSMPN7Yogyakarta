@@ -278,7 +278,7 @@ export default function Join() {
             </>
           ) : (
             <>
-              <a href="/login">Sign in</a> · <a href="/register">Register</a> · <a href="/">Home</a>
+              <a href="/login">Masuk Pemateri</a> · <a href="/">Beranda</a>
             </>
           )}
         </p>

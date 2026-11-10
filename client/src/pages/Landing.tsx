@@ -64,10 +64,6 @@ export default function Landing() {
               <span>MASUK PEMATERI / ADMIN</span>
             </Link>
           </Button>
-
-          <Button asChild variant="outline" size="sm" className="w-full text-xs font-bold border-2 border-black bg-white shadow-[3px_3px_0px_#000]">
-            <Link to="/register">Daftar Akun Baru</Link>
-          </Button>
         </div>
 
         <div className="mt-6 border-t-2 border-dashed border-black/30 pt-4 text-[11px] font-mono font-bold uppercase text-black/70">
