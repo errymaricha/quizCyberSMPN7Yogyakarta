@@ -1,3 +1,4 @@
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import type { AppConfig } from './types';
@@ -46,13 +47,20 @@ export function loadConfig(): AppConfig {
   if (process.env.ALLOWED_DOMAIN !== undefined) cfg.allowedDomain = process.env.ALLOWED_DOMAIN;
   if (process.env.PUBLIC_URL) cfg.publicUrl = process.env.PUBLIC_URL;
 
-  // Refuse to boot with a missing or well-known JWT secret: it would let anyone
-  // forge super-admin tokens. Operators must set a strong JWT_SECRET.
+  // If JWT_SECRET is unset, uses the placeholder, or is too short:
+  // Instead of crashing the container in a restart-loop, auto-generate a secure random secret!
   if (!cfg.jwtSecret || cfg.jwtSecret === PLACEHOLDER_SECRET || cfg.jwtSecret.length < 32) {
-    throw new Error(
-      'JWT_SECRET is unset, uses the built-in placeholder, or is shorter than 32 chars. ' +
-        'Set a strong random JWT_SECRET (e.g. `openssl rand -hex 32`) before starting.',
+    cfg.jwtSecret = crypto.randomBytes(32).toString('hex');
+    console.warn(
+      '\n[quizz] ⚠️  JWT_SECRET was unset or too short. Generated an automatic secure random secret:\n' +
+        `        ${cfg.jwtSecret}\n` +
+        '        (To use a fixed secret, configure JWT_SECRET in your environment variables).\n',
     );
+    try {
+      fs.writeFileSync(configPath, JSON.stringify(cfg, null, 2), 'utf-8');
+    } catch {
+      // In case data directory is read-only
+    }
   }
   return cfg;
 }
